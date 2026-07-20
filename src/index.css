@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Pinyon+Script&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,300..700;1,300..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFCFA;
+}
+::-webkit-scrollbar-thumb {
+  background: #FFCAD4;
+  border-radius: 6px;
+  border: 2px solid #FFFCFA;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5989B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EDE3D4;
+  color: #722F37;
+  overflow-x: hidden;
+  font-family: 'Plus Jakarta Sans', 'Montserrat', sans-serif;
+}
+
+/* Lenis Smooth Scroll Config */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+/* Enhanced Premium Glassmorphism with High Contrast & Readability */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.05),
+              inset 0 1px 1px rgba(255, 255, 255, 0.6);
+}
+
+.glass-panel-premium {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.98) 0%, rgba(255, 249, 245, 0.96) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 20px 60px -15px rgba(0, 0, 0, 0.06),
+              inset 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Flat Luxury UI - (Legacy Bezel names kept for markup compatibility) */
+.bezel-shell {
+  background: #110B1F; /* Deep dark velvet/navy */
+  border: 1px solid #E6A8B6; /* Rose gold border */
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+}
+
+.bezel-core {
+  background: #090611; /* Even darker core */
+  border: 1px solid rgba(230, 168, 182, 0.3); /* Translucent rose gold border */
+  border-radius: 0.125rem;
+  box-shadow: none;
+}
+
+/* Editorial Noise Texture */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+  opacity: 0.04;
+  mix-blend-mode: soft-light;
+}
+
+/* Text shadows for absolute readability on bright spring background */
+.text-shadow-heavy {
+  text-shadow: 0 2px 8px rgba(78, 45, 62, 0.15), 
+               0 4px 20px rgba(255, 255, 255, 0.9),
+               0 0 35px rgba(255, 255, 255, 0.95);
+}
+
+.text-shadow-dark {
+  text-shadow: 0 1px 3px rgba(78, 45, 62, 0.08);
+}
+
+.text-contrast-dark {
+  color: #4E2D3E !important;
+}
+
+.text-contrast-gold {
+  color: #B27B44 !important;
+}
+
+.arabic-glow {
+  text-shadow: 0 0 15px rgba(255, 255, 255, 1),
+               0 0 30px rgba(255, 255, 255, 1),
+               0 2px 6px rgba(78, 45, 62, 0.2);
+}
+
+/* Background Gradients to frame text content */
+.bg-gradient-overlay {
+  background: linear-gradient(to bottom, rgba(255, 252, 250, 0) 0%, rgba(255, 252, 250, 0.95) 25%, rgba(255, 252, 250, 0.95) 75%, rgba(255, 252, 250, 0) 100%);
+}
+
+/* Custom interactive cursor glow (desktop only) - Multiply blending for light spring theme */
+@media (min-width: 768px) {
+  .cursor-glow-element {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255, 227, 230, 0.45) 0%, rgba(255, 243, 240, 0.15) 45%, rgba(0,0,0,0) 70%);
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    mix-blend-mode: multiply;
+  }
+}
+
+/* Premium Selection Colors */
+::selection {
+  background-color: rgba(255, 202, 212, 0.45);
+  color: #4E2D3E;
+}
+
+/* Elegant Ornamental Dividers */
+.ornamental-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.ornamental-divider::before,
+.ornamental-divider::after {
+  content: '';
+  height: 1px;
+  width: 50px;
+  background: linear-gradient(to right, transparent, #B27B44, transparent);
+}
+
+.twilight-grad {
+  background-color: #0F172A;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(200, 160, 100, 0.1) 0%, transparent 60%),
+    url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23D58A9A' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+@keyframes blob {
+  0% { transform: translate(0px, 0px) scale(1); }
+  33% { transform: translate(30px, -50px) scale(1.1); }
+  66% { transform: translate(-20px, 20px) scale(0.9); }
+  100% { transform: translate(0px, 0px) scale(1); }
+}
+
+.animate-blob {
+  animation: blob 15s infinite alternate ease-in-out;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.bg-noise {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Constrained Mobile Mockup Overrides (centering and scaling typography) */
+#main-scroll-container {
+  padding: 0;
+}
+
+#main-scroll-container .py-40,
+#main-scroll-container .py-24 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+#main-scroll-container .min-h-screen {
+  min-h-screen: auto !important;
+  min-height: auto !important;
+  padding-top: 4rem !important;
+  padding-bottom: 4rem !important;
+}
+
+#main-scroll-container .bezel-core {
+  padding: 1.5rem !important;
+}
+
+/* Allow hero names on video overlay to use larger font size */
+#main-scroll-container .video-hero-name {
+  font-size: 1.75rem !important;
+  line-height: 2.25rem !important;
+}
+
+#main-scroll-container .video-hero-tagline {
+  font-size: 1.25rem !important;
+  line-height: 1.75rem !important;
+}
+
+/* Center content container for uniform width across all sections */
+#main-scroll-container .section-content {
+  width: 100%;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main-scroll-container .text-2xl {
+  font-size: 1.15rem !important;
+  line-height: 1.5rem !important;
+}
+
+#main-scroll-container p,
+#main-scroll-container .text-base,
+#main-scroll-container .text-lg {
+  font-size: 0.85rem !important;
+  line-height: 1.25rem !important;
+}
+
+#main-scroll-container .font-script {
+  font-size: 2.25rem !important;
+}
+
+/* Force mobile stack for grid columns inside container */
+#main-scroll-container .grid,
+#main-scroll-container .grid-cols-1,
+#main-scroll-container .md\:grid-cols-2,
+#main-scroll-container .sm\:grid-cols-3 {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  gap: 1.5rem !important;
+}
+
+#main-scroll-container .grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  gap: 0.5rem !important;
+}
+
+/* Adjust timeline dots spacing */
+#main-scroll-container .ml-4 {
+  margin-left: 0.5rem !important;
+}
+

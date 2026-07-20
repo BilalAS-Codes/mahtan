@@ -1,0 +1,5201 @@
+{
+  "blocks": [
+    "countdown",
+    "timeline",
+    "venue",
+    "dress-code",
+    "drawing-3",
+    "our-story",
+    "accommodation",
+    "activities",
+    "menu",
+    "gift-list",
+    "faq",
+    "drawing-2",
+    "gallery",
+    "destination",
+    "boarding-pass",
+    "things-to-do",
+    "transport"
+  ],
+  "message": "\n\n\nYou are invited for our special day\n\n",
+  "event_id": "98032531-8029-42fd-8ba2-3f50d3ab7f3a",
+  "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+  "initials": "J&M",
+  "style_id": "shining-light",
+  "music_url": "/audio/joyful-celebration.mp3",
+  "dress_code": "black tie",
+  "event_date": "2027-03-23",
+  "event_type": "Wedding",
+  "style_name": "Shining Light",
+  "text_color": "#722F37",
+  "venue_name": "the grand room",
+  "event_title": "Gregory drex I Boschman's Wedding",
+  "font_family": "Playfair Display",
+  "rsvp_config": {
+    "replyByDate": "2026-03-30",
+    "showMessage": true,
+    "dietaryOptions": [
+      {
+        "id": "gluten-free",
+        "enabled": true
+      },
+      {
+        "id": "lactose-free",
+        "enabled": true
+      },
+      {
+        "id": "vegetarian",
+        "enabled": true
+      },
+      {
+        "id": "vegan",
+        "enabled": true
+      },
+      {
+        "id": "nut-allergy",
+        "enabled": true
+      },
+      {
+        "id": "seafood-allergy",
+        "enabled": true
+      }
+    ],
+    "showGuestCount": true,
+    "customQuestions": [
+      {
+        "id": "custom-1774875230127",
+        "type": "multiple-choice",
+        "options": [
+          "caviar",
+          "fish"
+        ],
+        "question": "Main",
+        "required": false
+      },
+      {
+        "id": "custom-1777150988891",
+        "type": "text",
+        "question": "Hello",
+        "required": false
+      }
+    ],
+    "showSongRequest": true,
+    "showOtherDietary": true,
+    "showScrollButton": true,
+    "showDietaryOptions": true,
+    "showAllQuestionsUpfront": true
+  },
+  "event_status": "active",
+  "block_content": {
+    "faq": [
+      {
+        "answer": "Hell Nooo",
+        "question": "Can I bring my Children ?"
+      },
+      {
+        "answer": "By airplane",
+        "question": "What's the best way to get there?"
+      },
+      {
+        "answer": "By pressing your name in the rsvp, this will show if you can bring a plus one or not.",
+        "question": "Can I bring a plus one?"
+      },
+      {
+        "answer": "Yes, the venue offers a parking next door",
+        "question": "Is there parking nearby?"
+      }
+    ],
+    "menu": {
+      "categories": [
+        {
+          "items": [
+            {
+              "name": "Burrata & Heirloom Heirloom Medley",
+              "description": "Creamy Italian burrata paired with sun-ripened heirloom tomatoes"
+            }
+          ],
+          "title": "Starter"
+        },
+        {
+          "items": [
+            {
+              "name": "Miso-Glazed Beef Tenderloin",
+              "description": "rime cut beef tenderloin, pan-seared and served over a silky parsnip purée. "
+            }
+          ],
+          "title": "Main"
+        },
+        {
+          "items": [
+            {
+              "name": "Velvet White Chocolate & Raspberry Mousse",
+              "description": "A light-as-air white chocolate dome "
+            }
+          ],
+          "title": "dessert"
+        }
+      ]
+    },
+    "gallery": {
+      "images": [
+        "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/gallery/98032531-8029-42fd-8ba2-3f50d3ab7f3a/gallery-1777283837053-kxxpmo.jpg",
+        "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/gallery/98032531-8029-42fd-8ba2-3f50d3ab7f3a/gallery-1777283885621-n2imsq.jpg"
+      ],
+      "captions": [
+        "",
+        ""
+      ],
+      "displayMode": "fullwidth"
+    },
+    "drawings": {
+      "drawing-1": "line-art-champagne",
+      "drawing-2": "line-art-champagne",
+      "drawing-3": "line-art-cake",
+      "drawing-4": "portuguese-tiles"
+    },
+    "giftList": {
+      "message": "Your presence is your gift, but all contributions can go to the bank details below",
+      "registries": [
+        {
+          "url": "www.amazon.com",
+          "name": "amazon"
+        }
+      ],
+      "bankDetails": {
+        "iban": "BE89 565 52 24 55",
+        "bankName": "KBC",
+        "accountHolder": "Greg"
+      },
+      "bankAccounts": [
+        {
+          "iban": "BE89 565 52 24 55",
+          "label": "",
+          "bankName": "KBC",
+          "accountHolder": "Greg"
+        }
+      ],
+      "showBankDetails": true
+    },
+    "ourStory": {
+      "title": "Our Story",
+      "format": "narrative",
+      "milestones": [
+        {
+          "date": "June 2021",
+          "title": "Our First Kiss",
+          "description": ""
+        },
+        {
+          "date": "June 2022",
+          "title": "Our Engagement Day",
+          "description": ""
+        },
+        {
+          "date": " January 2023",
+          "title": "Arthur was Born",
+          "description": ""
+        }
+      ],
+      "description": "In the city of Oakhaven, where the rain always seemed to smell like cedar and wet pavement, Elias ran a shop that sold \"nearly-dead\" clocks. He didn’t fix them to be perfect; he fixed them to keep their character. Some ticked with a slight limp, others chimed a note too flat, but Elias loved them for their stubbornness"
+    },
+    "timeline": [
+      {
+        "time": "14:00",
+        "title": "ceremony",
+        "description": ""
+      },
+      {
+        "time": "15:00",
+        "title": "wedding",
+        "description": ""
+      },
+      {
+        "time": "18:00",
+        "title": "dinner",
+        "description": ""
+      }
+    ],
+    "countdown": {
+      "message": "We can't wait untill this moment!",
+      "showEmbroidery": true,
+      "backgroundColor": "hsl(35 30% 80%)"
+    },
+    "dressCode": {
+      "code": "Semi-Formal",
+      "colors": [
+        "#c9b8a4",
+        "#ffffff"
+      ],
+      "codeMen": "Suit & Tie",
+      "codeWomen": "Cocktail dress",
+      "description": ""
+    },
+    "galleries": {
+      "gallery": {
+        "images": [
+          "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/gallery/98032531-8029-42fd-8ba2-3f50d3ab7f3a/gallery-1777283837053-kxxpmo.jpg",
+          "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/gallery/98032531-8029-42fd-8ba2-3f50d3ab7f3a/gallery-1777283885621-n2imsq.jpg"
+        ],
+        "captions": [
+          "",
+          ""
+        ],
+        "displayMode": "fullwidth"
+      }
+    },
+    "textBlock": {
+      "text": "test test",
+      "title": "We would like to invite you for our wedding",
+      "alignment": "left"
+    },
+    "transport": {
+      "options": []
+    },
+    "venueDays": [
+      {
+        "name": "Occean front beach House",
+        "label": "Day 1",
+        "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+        "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States",
+        "imageUrl": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/venues/98032531-8029-42fd-8ba2-3f50d3ab7f3a/venue-day0-1774862606369.png"
+      },
+      {
+        "name": "The grand Castle",
+        "label": "Day 2",
+        "address": "Schijnpoortweg 137",
+        "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137",
+        "imageUrl": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/venues/98032531-8029-42fd-8ba2-3f50d3ab7f3a/venue-day1-1777111561987.jpg"
+      }
+    ],
+    "thingsToDo": {
+      "note": "Some of our favourite things to do nearby",
+      "items": [
+        {
+          "name": "Walk by the lake",
+          "category": "nature",
+          "description": "The gentle rhythm of water lapping against the shore creates a serene soundtrack for a peaceful stroll along the winding path"
+        },
+        {
+          "name": "Restaurant ",
+          "category": "restaurant",
+          "description": "When it comes to a truly elite dining scene, the Moboli area stands in a league of its own, boasting a vibrant mix of Michelin-starred excellence and hidden culinary gems."
+        }
+      ]
+    },
+    "destination": {
+      "city": "Miami"
+    },
+    "boardingPass": {
+      "destinationCity": "Miami"
+    },
+    "timelineDays": [
+      {
+        "items": [
+          {
+            "time": "14:00",
+            "title": "Lunch",
+            "description": ""
+          },
+          {
+            "time": "18:00",
+            "title": "Ceremony",
+            "description": ""
+          },
+          {
+            "time": "22:00",
+            "title": "Party",
+            "description": ""
+          },
+          {
+            "time": "02:00",
+            "title": "end",
+            "description": ""
+          }
+        ],
+        "label": "Day 1",
+        "categoryIds": [
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+        ]
+      },
+      {
+        "items": [
+          {
+            "time": "Lunch",
+            "title": "14:00",
+            "description": ""
+          },
+          {
+            "time": "Wedding",
+            "title": "20:00",
+            "description": ""
+          },
+          {
+            "time": "Party",
+            "title": "22:00",
+            "description": ""
+          },
+          {
+            "time": "End",
+            "title": "02:00",
+            "description": ""
+          },
+          {
+            "time": "",
+            "title": "",
+            "description": ""
+          }
+        ],
+        "label": "Day 2"
+      }
+    ],
+    "weddingParty": {
+      "groups": [
+        {
+          "title": "Bridesmaids",
+          "members": [
+            {
+              "name": "Anna Grolaard"
+            }
+          ]
+        },
+        {
+          "title": "Best Man",
+          "members": [
+            {
+              "name": "Fred"
+            }
+          ]
+        },
+        {
+          "title": "In Honour of Our Parents",
+          "members": [
+            {
+              "name": "Camilla"
+            },
+            {
+              "name": "John"
+            }
+          ]
+        }
+      ]
+    },
+    "accommodation": {
+      "note": "we have arranged these hotels for you",
+      "hotels": [
+        {
+          "url": "https://www.booking.com/hotel/it/villa-agostina.nl.html?label=nl-be-booking-desktop-6g7wH5qxI5WPMW2tfThAegS652796017152%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-334108049%3Alp9195968%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&arphpl=1&dest_id=104&dest_type=country&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=26dd6bfb395d00f6&srepoch=1773674499&from=searchresults",
+          "name": "Hotel Costa",
+          "imageUrl": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/accommodation/98032531-8029-42fd-8ba2-3f50d3ab7f3a/accommodation-1777283919315-86vuj.jpg",
+          "priceRange": "4100",
+          "description": "You can book directly with the link below for a discount"
+        },
+        {
+          "url": "https://www.booking.com/hotel/it/villa-agostina.nl.html?label=nl-be-booking-desktop-6g7wH5qxI5WPMW2tfThAegS652796017152%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-334108049%3Alp9195968%3Ali%3Adec%3Adm&aid=2311236&ucfs=1&arphpl=1&dest_id=104&dest_type=country&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=5&hapos=5&sr_order=popularity&srpvid=26dd6bfb395d00f6&srepoch=1773674499&from=searchresults",
+          "name": "Hotal Love",
+          "imageFit": "cover",
+          "imageUrl": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/accommodation/98032531-8029-42fd-8ba2-3f50d3ab7f3a/accommodation-1777283968454-dbuim.jfif",
+          "priceRange": "120€",
+          "description": "You can book directly with the link below for a discount",
+          "discountCode": ""
+        }
+      ]
+    },
+    "dressCodeDays": [
+      {
+        "code": "Semi-Formal",
+        "label": "Day 1",
+        "colors": [
+          "#c9b8a4",
+          "#ffffff"
+        ],
+        "codeMen": "Suit & Tie",
+        "imageUrl": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/dresscode/98032531-8029-42fd-8ba2-3f50d3ab7f3a/dresscode-day0-1777301911029.png",
+        "codeWomen": "Cocktail dress"
+      }
+    ],
+    "flowerBorders": "classic",
+    "timelineStyle": "wavy",
+    "scratchTheDate": {
+      "message": "SCRATCH TO DISCOVER THE DATE",
+      "customDate": "2027-03-23",
+      "revealedMessage": "We are getting married"
+    },
+    "weddingWebsite": {
+      "url": "www.john.com"
+    },
+    "categoryContent": {
+      "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "time": "14:00",
+                "title": "Lunch",
+                "description": ""
+              },
+              {
+                "time": "18:00",
+                "title": "Ceremony",
+                "description": ""
+              }
+            ],
+            "label": "Day 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          }
+        ],
+        "accommodations": {
+          "accommodation": {
+            "hotels": [
+              {
+                "url": "",
+                "name": "Hotel 1",
+                "priceRange": "11",
+                "description": "",
+                "discountCode": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    "blockAccentColors": {
+      "venue": "",
+      "gift-list": "hsl(350 45% 55%)",
+      "wedding-website": ""
+    },
+    "travelDestination": {
+      "city": "Ibiza",
+      "country": "Spain"
+    },
+    "blockBackgroundColors": {
+      "our-story": "",
+      "boarding-pass": ""
+    }
+  },
+  "ceremony_time": "14:08:00",
+  "custom_fields": {
+    "showTapToOpen": false,
+    "blockTitleFont": "Cinzel"
+  },
+  "date_position": "below",
+  "event_user_id": "1bf1ec45-924c-491b-9839-2dc8e3d71cdf",
+  "invitation_id": "7306e349-b668-41e9-bb2d-46bb92a1090a",
+  "venue_address": "schijnpoortweg 137 ",
+  "date_font_size": 19,
+  "envelope_image": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/98032531-8029-42fd-8ba2-3f50d3ab7f3a/envelope-floral-cream-baby-pink-1777193644197.png",
+  "event_end_date": "2027-03-24",
+  "language_slugs": {
+    "ar": "82d109d6-ar",
+    "bg": "82d109d6-bg",
+    "de": "82d109d6-de",
+    "en": "82d109d6-en",
+    "es": "82d109d6-es",
+    "fr": "82d109d6-fr",
+    "it": "82d109d6-it",
+    "ja": "82d109d6-ja",
+    "nl": "82d109d6-nl",
+    "pl": "82d109d6-pl",
+    "pt": "82d109d6-pt",
+    "ro": "82d109d6-ro",
+    "ru": "82d109d6-ru",
+    "zh": "82d109d6-zh"
+  },
+  "reception_time": "13:11:00",
+  "subtitle_color": "#ffffff",
+  "date_font_style": "default",
+  "event_languages": [
+    "en",
+    "fr",
+    "de",
+    "es",
+    "pt",
+    "nl",
+    "bg",
+    "ja",
+    "zh",
+    "ru",
+    "ro",
+    "ar",
+    "pl",
+    "it"
+  ],
+  "background_image": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/98032531-8029-42fd-8ba2-3f50d3ab7f3a/background-1774942596363.mov",
+  "block_text_color": "#722F37",
+  "custom_video_url": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/98032531-8029-42fd-8ba2-3f50d3ab7f3a/opening-animation-1777287974328.mp4",
+  "headline_subtitle": "We are getting married",
+  "subtitle_position": "below",
+  "default_max_guests": 1,
+  "envelope_font_size": 13,
+  "headline_font_size": 24,
+  "social_share_image": "https://kdcyugwruypwrmtllswt.supabase.co/storage/v1/object/public/invitation-assets/share-images/98032531-8029-42fd-8ba2-3f50d3ab7f3a-1776959218820.png?v=1776959220096",
+  "subtitle_font_size": 17,
+  "envelope_font_style": "Cinzel",
+  "envelope_text_color": "#722F37",
+  "headline_font_style": "Cinzel Decorative",
+  "subtitle_font_style": "Dancing Script",
+  "content_translations": {
+    "ar": {
+      "message": "\n\n\nأنتم مدعوون لمشاركتنا يومنا المميز\n\n",
+      "headline": "\n\n\n\n\n\n\n\nمحمد\n&\nليلى\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "كافيار",
+              "سمك"
+            ],
+            "question": "الطبق الرئيسي"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "مرحباً"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "بالتأكيد لا",
+            "question": "هل يمكنني إحضار أطفالي؟"
+          },
+          {
+            "answer": "عن طريق الطائرة",
+            "question": "ما هي أفضل طريقة للوصول إلى هناك؟"
+          },
+          {
+            "answer": "عن طريق الضغط على اسمك في صفحة تأكيد الحضور، سيظهر لك ما إذا كان بإمكانك إحضار مرافق أم لا.",
+            "question": "هل يمكنني إحضار مرافق؟"
+          },
+          {
+            "answer": "نعم، يوفر الموقع موقفاً للسيارات في المبنى المجاور",
+            "question": "هل توجد مواقف سيارات قريبة؟"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "بوراتا ومزيج الطماطم الموروثة",
+                  "description": "جبنة البوراتا الإيطالية الكريمية مع طماطم موروثة نضجت تحت أشعة الشمس"
+                }
+              ],
+              "title": "المقبلات"
+            },
+            {
+              "items": [
+                {
+                  "name": "فيليه لحم بقر بصلصة الميسو",
+                  "description": "قطع فاخرة من فيليه البقر، مشوحة في المقلاة وتقدم فوق مهروس الجزر الأبيض الحريري."
+                }
+              ],
+              "title": "الأطباق الرئيسية"
+            },
+            {
+              "items": [
+                {
+                  "name": "موس الشوكولاتة البيضاء المخملية والتوت الأحمر",
+                  "description": "قبة رقيقة من الشوكولاتة البيضاء الخفيفة"
+                }
+              ],
+              "title": "الحلوى"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "حضوركم هو أغلى هدية لنا، ولكن لمن يرغب في المساهمة، يمكن إرسالها إلى تفاصيل الحساب البنكي أدناه",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "قصتنا",
+          "milestones": [
+            {
+              "date": "يونيو 2021",
+              "title": "قبلتنا الأولى",
+              "description": ""
+            },
+            {
+              "date": "يونيو 2022",
+              "title": "يوم خطوبتنا",
+              "description": ""
+            },
+            {
+              "date": "يناير 2023",
+              "title": "ولادة آرثر",
+              "description": ""
+            }
+          ],
+          "description": "في مدينة أوكهيفن، حيث كانت الأمطار تفوح دائماً برائحة الأرز والأرصفة المبللة، كان إلياس يدير متجراً لبيع الساعات \"شبه الميتة\". لم يكن يصلحها لتبدو مثالية، بل كان يصلحها لكي تحتفظ بشخصيتها. بعضها كان يدق بعرج طفيف، وبعضها كان يرن بنغمة غير دقيقة، لكن إلياس أحبها جميعاً لإصرارها وتميزها."
+        },
+        "timeline": [
+          {
+            "title": "المراسم",
+            "description": ""
+          },
+          {
+            "title": "الزفاف",
+            "description": ""
+          },
+          {
+            "title": "العشاء",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "لا يسعنا الانتظار للحظة لقائكم!"
+        },
+        "dressCode": {
+          "code": "رسمي متوسط (Semi-Formal)",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "بدلة وربطة عنق",
+          "codeWomen": "فستان كوكتيل",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "تجربة تجربة",
+          "title": "نود دعوتكم لحضور حفل زفافنا",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "اليوم الأول",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "اليوم الثاني",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "بعض الأنشطة المفضلة لدينا في المنطقة المجاورة",
+          "items": [
+            {
+              "name": "التنزه بجانب البحيرة",
+              "category": "الطبيعة",
+              "description": "الإيقاع الهادئ لارتطام المياه بالشاطئ يخلق موسيقى تصويرية هادئة للتنزه بسلام على طول المسار المتعرج"
+            },
+            {
+              "name": "مطعم",
+              "category": "مطعم",
+              "description": "عندما يتعلق الأمر بساحة غداء وعشاء راقية حقاً، فإن منطقة موبولي تنفرد بمكانتها، حيث تضم مزيجاً حيوياً من مطاعم ميشلان المتميزة والجواهر المخبأة."
+            }
+          ]
+        },
+        "destination": {
+          "city": "ميامي"
+        },
+        "boardingPass": {
+          "destinationCity": "ميامي"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "الغداء",
+                "description": ""
+              },
+              {
+                "title": "المراسم",
+                "description": ""
+              },
+              {
+                "title": "الحفلة",
+                "description": ""
+              },
+              {
+                "title": "الختام",
+                "description": ""
+              }
+            ],
+            "label": "اليوم الأول",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "اليوم الثاني"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "وصيفات العروس",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "إشبين العريس",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "تكريماً لوالدينا",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "لقد قمنا بترتيب هذه الفنادق من أجلكم",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "يمكنكم الحجز مباشرة عبر الرابط أدناه للحصول على خصم"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "يمكنكم الحجز مباشرة عبر الرابط أدناه للحصول على خصم",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "رسمي متوسط (Semi-Formal)",
+            "label": "اليوم الأول",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "بدلة وربطة عنق",
+            "codeWomen": "فستان كوكتيل"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "امسح لاكتشاف التاريخ",
+          "revealedMessage": "نحن سنتزوج"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "الغداء",
+                    "description": ""
+                  },
+                  {
+                    "title": "المراسم",
+                    "description": ""
+                  }
+                ],
+                "label": "اليوم الأول",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "إيبيزا",
+          "country": "إسبانيا"
+        }
+      },
+      "headline_subtitle": "نحن سنتزوج"
+    },
+    "bg": {
+      "message": "\n\n\nПоканени сте на нашия специален ден\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "хайвер",
+              "риба"
+            ],
+            "question": "Основно ястие"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Здравейте"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "В никакъв случай",
+            "question": "Мога ли да дойда с децата си?"
+          },
+          {
+            "answer": "Със самолет",
+            "question": "Кой е най-добрият начин да стигна до там?"
+          },
+          {
+            "answer": "Като натиснете името си в секцията за потвърждение (RSVP) – там ще се появи дали имате право на придружител.",
+            "question": "Мога ли да доведа придружител?"
+          },
+          {
+            "answer": "Да, мястото разполага с паркинг в непосредствена близост",
+            "question": "Има ли паркинг наблизо?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Бурата с микс от сортови домати",
+                  "description": "Кремообразна италианска бурата, поднесена със зрели на слънце сортови домати"
+                }
+              ],
+              "title": "Предястие"
+            },
+            {
+              "items": [
+                {
+                  "name": "Говеждо филе с мисо глазура",
+                  "description": "Първокласно говеждо филе, запечатано на тиган и поднесено върху копринено пюре от пащърнак."
+                }
+              ],
+              "title": "Основно"
+            },
+            {
+              "items": [
+                {
+                  "name": "Кадифен мус с бял шоколад и малини",
+                  "description": "Лек като въздух купол от бял шоколад"
+                }
+              ],
+              "title": "Десерт"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Вашето присъствие е най-големият подарък за нас, но ако желаете да ни зарадвате с жест, можете да го направите чрез банковите детайли по-долу",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Нашата история",
+          "milestones": [
+            {
+              "date": "Юни 2021",
+              "title": "Първата ни целувка",
+              "description": ""
+            },
+            {
+              "date": "Юни 2022",
+              "title": "Денят на нашия годеж",
+              "description": ""
+            },
+            {
+              "date": "Януари 2023",
+              "title": "Раждането на Arthur",
+              "description": ""
+            }
+          ],
+          "description": "В град Оукхейвън, където дъждът винаги миришеше на кедър и мокър паваж, Елиас държеше магазин за „почти спрели“ часовници. Той не ги поправяше, за да бъдат перфектни; поправяше ги така, че да запазят характера си. Някои тиктакаха с леко накуцване, други звъняха фалшиво, но Елиас ги обичаше заради техния инат."
+        },
+        "timeline": [
+          {
+            "title": "церемония",
+            "description": ""
+          },
+          {
+            "title": "сватба",
+            "description": ""
+          },
+          {
+            "title": "вечеря",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Нямаме търпение за този момент!"
+        },
+        "dressCode": {
+          "code": "Полуофициален",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Костюм и вратовръзка",
+          "codeWomen": "Коктейлна рокля",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "тест тест",
+          "title": "Бихме искали да ви поканим на нашата сватба",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Ден 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Ден 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Някои от любимите ни занимания наблизо",
+          "items": [
+            {
+              "name": "Разходка край езерото",
+              "category": "nature",
+              "description": "Нежният ритъм на вълните, плискащи се в брега, създава спокоен саундтрак за приятна разходка по криволичещата пътека"
+            },
+            {
+              "name": "Ресторант",
+              "category": "restaurant",
+              "description": "Когато става въпрос за елитна гастрономия, районът Моболи е в собствена лига, предлагайки жизнена комбинация от съвършенство със звезди Мишлен и скрити кулинарни бижута."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Маями"
+        },
+        "boardingPass": {
+          "destinationCity": "Маями"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Обяд",
+                "description": ""
+              },
+              {
+                "title": "Церемония",
+                "description": ""
+              },
+              {
+                "title": "Парти",
+                "description": ""
+              },
+              {
+                "title": "Край",
+                "description": ""
+              }
+            ],
+            "label": "Ден 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Ден 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Шаферки",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Кум",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "В чест на нашите родители",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Организирали сме настаняване в тези хотели за вас",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Можете да резервирате директно чрез линка по-долу, за да ползвате отстъпка"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Можете да резервирате директно чрез линка по-долу, за да ползвате отстъпка",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Полуофициален",
+            "label": "Ден 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Костюм и вратовръзка",
+            "codeWomen": "Коктейлна рокля"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "ИЗТРИЙТЕ, ЗА ДА ВИДИТЕ ДАТАТА",
+          "revealedMessage": "Ние се женим"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Обяд",
+                    "description": ""
+                  },
+                  {
+                    "title": "Церемония",
+                    "description": ""
+                  }
+                ],
+                "label": "Ден 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ибиса",
+          "country": "Испания"
+        }
+      },
+      "headline_subtitle": "Ние се женим"
+    },
+    "de": {
+      "message": "\n\n\nWir laden euch herzlich zu unserem besonderen Tag ein\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "Kaviar",
+              "Fisch"
+            ],
+            "question": "Hauptgang"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Hallo"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Auf gar keinen Fall",
+            "question": "Kann ich meine Kinder mitbringen?"
+          },
+          {
+            "answer": "Mit dem Flugzeug",
+            "question": "Wie kommt man am besten dorthin?"
+          },
+          {
+            "answer": "Indem du deinen Namen in der RSVP-Liste suchst; dort wird angezeigt, ob du eine Begleitperson mitbringen kannst oder nicht.",
+            "question": "Kann ich eine Begleitperson mitbringen?"
+          },
+          {
+            "answer": "Ja, der Veranstaltungsort bietet Parkplätze direkt nebenan an.",
+            "question": "Gibt es Parkmöglichkeiten in der Nähe?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata & Heirloom-Tomaten-Variationen",
+                  "description": "Cremige italienische Burrata gepaart mit sonnengereiften Heirloom-Tomaten"
+                }
+              ],
+              "title": "Vorspeise"
+            },
+            {
+              "items": [
+                {
+                  "name": "Miso-glasiertes Rinderfilet",
+                  "description": "Erstklassiges Rinderfilet, scharf angebraten und auf einem seidigen Pastinakenpüree serviert."
+                }
+              ],
+              "title": "Hauptgang"
+            },
+            {
+              "items": [
+                {
+                  "name": "Samtiges Mousse von weißer Schokolade & Himbeere",
+                  "description": "Eine federleichte Kuppel aus weißer Schokolade"
+                }
+              ],
+              "title": "Dessert"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Eure Anwesenheit ist uns Geschenk genug, aber wer dennoch etwas beitragen möchte, kann dies gerne über die untenstehende Bankverbindung tun.",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Unsere Geschichte",
+          "milestones": [
+            {
+              "date": "Juni 2021",
+              "title": "Unser erster Kuss",
+              "description": ""
+            },
+            {
+              "date": "Juni 2022",
+              "title": "Tag unserer Verlobung",
+              "description": ""
+            },
+            {
+              "date": " Januar 2023",
+              "title": "Arthur wurde geboren",
+              "description": ""
+            }
+          ],
+          "description": "In der Stadt Oakhaven, wo der Regen immer nach Zeder und nassem Asphalt zu riechen schien, betrieb Elias einen Laden für „fast tote“ Uhren. Er reparierte sie nicht, um sie perfekt zu machen; er reparierte sie, um ihren Charakter zu bewahren. Einige tickten mit einem leichten Hinken, andere klangen einen Ton zu tief, aber Elias liebte sie gerade für ihre Eigensinnigkeit."
+        },
+        "timeline": [
+          {
+            "title": "Zeremonie",
+            "description": ""
+          },
+          {
+            "title": "Hochzeit",
+            "description": ""
+          },
+          {
+            "title": "Abendessen",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Wir können diesen Moment kaum erwarten!"
+        },
+        "dressCode": {
+          "code": "Semi-Formal",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Anzug & Krawatte",
+          "codeWomen": "Cocktailkleid",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Wir möchten euch herzlich zu unserer Hochzeit einladen",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Tag 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Tag 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Einige unserer Lieblingsbeschäftigungen in der Nähe",
+          "items": [
+            {
+              "name": "Spaziergang am See",
+              "category": "nature",
+              "description": "Der sanfte Rhythmus des Wassers, das an das Ufer schlägt, bildet die perfekte Kulisse für einen friedlichen Spaziergang entlang der gewundenen Pfade."
+            },
+            {
+              "name": "Restaurant",
+              "category": "restaurant",
+              "description": "Wenn es um eine wirklich erstklassige Gastronomieszene geht, spielt die Gegend um Moboli in einer eigenen Liga und bietet eine lebendige Mischung aus Michelin-Sterne-Exzellenz und verborgenen kulinarischen Schätzen."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Mittagessen",
+                "description": ""
+              },
+              {
+                "title": "Zeremonie",
+                "description": ""
+              },
+              {
+                "title": "Party",
+                "description": ""
+              },
+              {
+                "title": "Ende",
+                "description": ""
+              }
+            ],
+            "label": "Tag 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Tag 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Brautjungfern",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Trauzeuge",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "Zu Ehren unserer Eltern",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Wir haben diese Hotels für euch organisiert",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Über den untenstehenden Link könnt ihr direkt buchen und einen Rabatt erhalten"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Über den untenstehenden Link könnt ihr direkt buchen und einen Rabatt erhalten",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formal",
+            "label": "Tag 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Anzug & Krawatte",
+            "codeWomen": "Cocktailkleid"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "FREIRUBBELN, UM DAS DATUM ZU ERFAHREN",
+          "revealedMessage": "Wir heiraten"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Mittagessen",
+                    "description": ""
+                  },
+                  {
+                    "title": "Zeremonie",
+                    "description": ""
+                  }
+                ],
+                "label": "Tag 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Spanien"
+        }
+      },
+      "headline_subtitle": "Wir heiraten"
+    },
+    "es": {
+      "message": "\n\n\nEstás cordialmente invitado a nuestro día especial\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "caviar",
+              "pescado"
+            ],
+            "question": "Plato Principal"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Hola"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "¡Para nada!",
+            "question": "¿Puedo traer a mis hijos?"
+          },
+          {
+            "answer": "En avión",
+            "question": "¿Cuál es la mejor manera de llegar?"
+          },
+          {
+            "answer": "Al ingresar tu nombre en la confirmación de asistencia (RSVP), se indicará si tienes permitido traer un acompañante.",
+            "question": "¿Puedo traer a un acompañante?"
+          },
+          {
+            "answer": "Sí, el lugar cuenta con estacionamiento al lado.",
+            "question": "¿Hay estacionamiento cerca?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata y Variedad de Tomates Heirloom",
+                  "description": "Burrata italiana cremosa acompañada de tomates heirloom madurados al sol"
+                }
+              ],
+              "title": "Entrada"
+            },
+            {
+              "items": [
+                {
+                  "name": "Solomillo de Ternera Glaseado con Miso",
+                  "description": "Corte selecto de solomillo de ternera, sellado a la sartén y servido sobre un sedoso puré de chirivía."
+                }
+              ],
+              "title": "Plato Principal"
+            },
+            {
+              "items": [
+                {
+                  "name": "Mousse de Terciopelo de Chocolate Blanco y Frambuesa",
+                  "description": "Un domo de chocolate blanco ligero como el aire"
+                }
+              ],
+              "title": "Postre"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Tu presencia es nuestro mejor regalo, pero si deseas hacernos una contribución, puedes hacerlo a los siguientes datos bancarios",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Nuestra Historia",
+          "milestones": [
+            {
+              "date": "Junio 2021",
+              "title": "Nuestro Primer Beso",
+              "description": ""
+            },
+            {
+              "date": "Junio 2022",
+              "title": "Nuestro Compromiso",
+              "description": ""
+            },
+            {
+              "date": "Enero 2023",
+              "title": "Nacimiento de Arthur",
+              "description": ""
+            }
+          ],
+          "description": "En la ciudad de Oakhaven, donde la lluvia siempre parecía oler a cedro y pavimento mojado, Elias dirigía una tienda de relojes \"casi muertos\". No los reparaba para que fueran perfectos; los reparaba para que conservaran su carácter. Algunos daban las horas con un ligero tropiezo, otros sonaban con una nota desafinada, pero Elias los amaba por su terquedad."
+        },
+        "timeline": [
+          {
+            "title": "ceremonia",
+            "description": ""
+          },
+          {
+            "title": "boda",
+            "description": ""
+          },
+          {
+            "title": "cena",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "¡Estamos ansiosos por que llegue este momento!"
+        },
+        "dressCode": {
+          "code": "Semiformal",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Traje y Corbata",
+          "codeWomen": "Vestido de Cóctel",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Nos gustaría invitarte a nuestra boda",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Día 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Día 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Algunas de nuestras actividades favoritas en los alrededores",
+          "items": [
+            {
+              "name": "Caminata por el lago",
+              "category": "nature",
+              "description": "El suave ritmo del agua golpeando la orilla crea una banda sonora serena para un paseo tranquilo por el sendero serpenteante."
+            },
+            {
+              "name": "Restaurante",
+              "category": "restaurant",
+              "description": "Cuando se trata de una escena gastronómica de verdadera élite, la zona de Moboli es insuperable, con una mezcla vibrante de excelencia culinaria de estrellas Michelin y tesoros ocultos."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Almuerzo",
+                "description": ""
+              },
+              {
+                "title": "Ceremonia",
+                "description": ""
+              },
+              {
+                "title": "Fiesta",
+                "description": ""
+              },
+              {
+                "title": "Fin",
+                "description": ""
+              }
+            ],
+            "label": "Día 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Día 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Damas de Honor",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Padrino",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "En Honor a Nuestros Padres",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Hemos organizado estos hoteles para vuestra estancia",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Puedes reservar directamente a través del siguiente enlace para obtener un descuento"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Puedes reservar directamente a través del siguiente enlace para obtener un descuento",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semiformal",
+            "label": "Día 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Traje y Corbata",
+            "codeWomen": "Vestido de Cóctel"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "RASPA PARA DESCUBRIR LA FECHA",
+          "revealedMessage": "¡Nos casamos!"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Almuerzo",
+                    "description": ""
+                  },
+                  {
+                    "title": "Ceremonia",
+                    "description": ""
+                  }
+                ],
+                "label": "Día 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "España"
+        }
+      },
+      "headline_subtitle": "¡Nos casamos!"
+    },
+    "fr": {
+      "message": "\n\n\nVous êtes invités à célébrer notre journée spéciale\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "caviar",
+              "poisson"
+            ],
+            "question": "Plat Principal"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Bonjour"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Pas du tout ! (Désolés)",
+            "question": "Puis-je amener mes enfants ?"
+          },
+          {
+            "answer": "Par avion",
+            "question": "Quel est le meilleur moyen de s'y rendre ?"
+          },
+          {
+            "answer": "En entrant votre nom dans la section RSVP, il sera indiqué si vous pouvez être accompagné ou non.",
+            "question": "Puis-je venir avec un invité ?"
+          },
+          {
+            "answer": "Oui, le lieu dispose d'un parking juste à côté",
+            "question": "Y a-t-il un parking à proximité ?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata et Éclat de Tomates Anciennes",
+                  "description": "Burrata italienne crémeuse accompagnée de tomates anciennes mûries au soleil"
+                }
+              ],
+              "title": "Entrée"
+            },
+            {
+              "items": [
+                {
+                  "name": "Filet de Bœuf Glacé au Miso",
+                  "description": "Pièce de filet de bœuf de premier choix, saisie à la poêle et servie sur une purée de panais soyeuse."
+                }
+              ],
+              "title": "Plat Principal"
+            },
+            {
+              "items": [
+                {
+                  "name": "Mousse Veloutée au Chocolat Blanc et Framboise",
+                  "description": "Un dôme de chocolat blanc léger comme l'air"
+                }
+              ],
+              "title": "Dessert"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Votre présence est le plus beau des cadeaux, mais si vous souhaitez contribuer, voici nos coordonnées bancaires",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Notre Histoire",
+          "milestones": [
+            {
+              "date": "Juin 2021",
+              "title": "Notre premier baiser",
+              "description": ""
+            },
+            {
+              "date": "Juin 2022",
+              "title": "Le jour de nos fiançailles",
+              "description": ""
+            },
+            {
+              "date": "Janvier 2023",
+              "title": "La naissance d'Arthur",
+              "description": ""
+            }
+          ],
+          "description": "Dans la ville d'Oakhaven, où la pluie semblait toujours avoir un parfum de cèdre et d'asphalte mouillé, Elias tenait une boutique d'horloges « presque-mortes ». Il ne les réparait pas pour qu'elles soient parfaites, il les réparait pour qu'elles gardent leur caractère. Certaines tiquaient avec un léger boitement, d'autres sonnaient un peu faux, mais Elias les aimait pour leur obstination."
+        },
+        "timeline": [
+          {
+            "title": "Cérémonie",
+            "description": ""
+          },
+          {
+            "title": "Mariage",
+            "description": ""
+          },
+          {
+            "title": "Dîner",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Nous avons hâte de vivre ce moment !"
+        },
+        "dressCode": {
+          "code": "Semi-Formel",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Costume et Cravate",
+          "codeWomen": "Robe de Cocktail",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Nous aimerions vous inviter à notre mariage",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Jour 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Jour 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Quelques-unes de nos activités préférées à proximité",
+          "items": [
+            {
+              "name": "Promenade au bord du lac",
+              "category": "nature",
+              "description": "Le rythme doux de l'eau contre le rivage crée une bande sonore sereine pour une promenade paisible le long du sentier sinueux."
+            },
+            {
+              "name": "Restaurant",
+              "category": "restaurant",
+              "description": "Pour une expérience culinaire d'exception, le quartier de Moboli est unique en son genre, offrant un mélange vibrant de tables étoilées Michelin et de pépites gastronomiques cachées."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Déjeuner",
+                "description": ""
+              },
+              {
+                "title": "Cérémonie",
+                "description": ""
+              },
+              {
+                "title": "Fête",
+                "description": ""
+              },
+              {
+                "title": "Fin",
+                "description": ""
+              }
+            ],
+            "label": "Jour 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Jour 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Demoiselles d'honneur",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Témoin",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "En l'honneur de nos parents",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Nous avons sélectionné ces hôtels pour vous",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Vous pouvez réserver directement via le lien ci-dessous pour bénéficier d'une réduction"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Vous pouvez réserver directement via le lien ci-dessous pour bénéficier d'une réduction",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formel",
+            "label": "Jour 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Costume et Cravate",
+            "codeWomen": "Robe de Cocktail"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "GRATTEZ POUR DÉCOUVRIR LA DATE",
+          "revealedMessage": "Nous nous marions"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Déjeuner",
+                    "description": ""
+                  },
+                  {
+                    "title": "Cérémonie",
+                    "description": ""
+                  }
+                ],
+                "label": "Jour 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Espagne"
+        }
+      },
+      "headline_subtitle": "Nous nous marions"
+    },
+    "it": {
+      "message": "\n\n\nSiete invitati al nostro giorno speciale\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "caviale",
+              "pesce"
+            ],
+            "question": "Piatto Principale"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Ciao"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Assolutamente nooo",
+            "question": "Posso portare i miei bambini?"
+          },
+          {
+            "answer": "In aereo",
+            "question": "Qual è il modo migliore per arrivare?"
+          },
+          {
+            "answer": "Selezionando il tuo nome nella sezione RSVP, vedrai se è previsto un accompagnatore per te oppure no.",
+            "question": "Posso portare un accompagnatore?"
+          },
+          {
+            "answer": "Sì, la location dispone di un parcheggio proprio accanto",
+            "question": "C'è un parcheggio nelle vicinanze?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata e Pomodori Heirloom",
+                  "description": "Cremosa burrata italiana accompagnata da pomodori heirloom maturati al sole"
+                }
+              ],
+              "title": "Antipasto"
+            },
+            {
+              "items": [
+                {
+                  "name": "Filetto di Manzo glassato al Miso",
+                  "description": "Taglio pregiato di filetto di manzo, scottato in padella e servito su una vellutata di pastinaca."
+                }
+              ],
+              "title": "Secondo"
+            },
+            {
+              "items": [
+                {
+                  "name": "Mousse Vellutata al Cioccolato Bianco e Lampone",
+                  "description": "Una cupola di cioccolato bianco leggera come l'aria"
+                }
+              ],
+              "title": "Dessert"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "La vostra presenza è il regalo più bello, ma se desiderate contribuire potete trovare i dettagli bancari qui sotto",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "La Nostra Storia",
+          "milestones": [
+            {
+              "date": "Giugno 2021",
+              "title": "Il Nostro Primo Bacio",
+              "description": ""
+            },
+            {
+              "date": "Giugno 2022",
+              "title": "Il Giorno del Nostro Fidanzamento",
+              "description": ""
+            },
+            {
+              "date": "Gennaio 2023",
+              "title": "È nato Arthur",
+              "description": ""
+            }
+          ],
+          "description": "Nella città di Oakhaven, dove la pioggia aveva sempre il profumo di cedro e asfalto bagnato, Elias gestiva un negozio di orologi \"quasi morti\". Non li riparava per renderli perfetti, ma per preservarne il carattere. Alcuni ticchettavano con un leggero zoppicare, altri suonavano note calanti, ma Elias li amava per la loro testardaggine."
+        },
+        "timeline": [
+          {
+            "title": "cerimonia",
+            "description": ""
+          },
+          {
+            "title": "matrimonio",
+            "description": ""
+          },
+          {
+            "title": "cena",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Non vediamo l'ora che arrivi questo momento!"
+        },
+        "dressCode": {
+          "code": "Semi-Formale",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Abito e Cravatta",
+          "codeWomen": "Abito da Cocktail",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Saremmo lieti di avervi con noi per il nostro matrimonio",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Giorno 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Giorno 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Alcune delle nostre attività preferite nei paraggi",
+          "items": [
+            {
+              "name": "Passeggiata lungo il lago",
+              "category": "nature",
+              "description": "Il ritmo dolce dell'acqua che si infrange sulla riva crea una colonna sonora serena per una tranquilla passeggiata lungo il sentiero tortuoso"
+            },
+            {
+              "name": "Ristorante",
+              "category": "restaurant",
+              "description": "Quando si parla di una scena gastronomica d'élite, la zona di Moboli non ha rivali, offrendo un mix vivace di eccellenze stellate Michelin e gemme culinarie nascoste."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Pranzo",
+                "description": ""
+              },
+              {
+                "title": "Cerimonia",
+                "description": ""
+              },
+              {
+                "title": "Festa",
+                "description": ""
+              },
+              {
+                "title": "Fine",
+                "description": ""
+              }
+            ],
+            "label": "Giorno 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Giorno 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Damigelle d'onore",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Testimone dello sposo",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "In onore dei nostri genitori",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Abbiamo selezionato questi hotel per voi",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "È possibile prenotare direttamente tramite il link sottostante per ricevere uno sconto"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "È possibile prenotare direttamente tramite il link sottostante per ricevere uno sconto",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formale",
+            "label": "Giorno 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Abito e Cravatta",
+            "codeWomen": "Abito da Cocktail"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "GRATTA PER SCOPRIRE LA DATA",
+          "revealedMessage": "Oggi sposi"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Pranzo",
+                    "description": ""
+                  },
+                  {
+                    "title": "Cerimonia",
+                    "description": ""
+                  }
+                ],
+                "label": "Giorno 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Spagna"
+        }
+      },
+      "headline_subtitle": "Oggi sposi"
+    },
+    "ja": {
+      "message": "\n\n\n私たちの特別な一日に、心よりご案内申し上げます\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "キャビア",
+              "魚料理"
+            ],
+            "question": "メイン料理"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "こんにちは"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "あいにく、お子様のご同伴はご遠慮いただいております",
+            "question": "子供を連れて行ってもいいですか？"
+          },
+          {
+            "answer": "飛行機が最も便利です",
+            "question": "会場への最適なアクセス方法は何ですか？"
+          },
+          {
+            "answer": "RSVP（出席確認）でお名前を入力していただくと、お連れ様をご同伴いただけるかどうかが表示されます。",
+            "question": "同伴者を連れて行ってもいいですか？"
+          },
+          {
+            "answer": "はい、会場のすぐ隣に駐車場がございます",
+            "question": "近くに駐車場はありますか？"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "ブッラータとエアルームトマトのメドレー",
+                  "description": "クリーミーなイタリア産ブッラータチーズと、太陽の恵みを浴びたエアルームトマトのハーモニー"
+                }
+              ],
+              "title": "前菜"
+            },
+            {
+              "items": [
+                {
+                  "name": "牛フィレ肉の味噌グレイズ",
+                  "description": "厳選された牛フィレ肉を香ばしく焼き上げ、なめらかなパースニップのピューレを添えて。"
+                }
+              ],
+              "title": "メイン"
+            },
+            {
+              "items": [
+                {
+                  "name": "ベルベット・ホワイトチョコレートとラズベリーのムース",
+                  "description": "空気のように軽いホワイトチョコレートのドーム仕立て"
+                }
+              ],
+              "title": "デザート"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "皆様のご列席が何よりの贈り物ですが、お祝いのお気持ちをいただける場合は、以下の口座へお願い申し上げます",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "二人の歩み",
+          "milestones": [
+            {
+              "date": "2021年6月",
+              "title": "初めてのキス",
+              "description": ""
+            },
+            {
+              "date": "2022年6月",
+              "title": "婚約した日",
+              "description": ""
+            },
+            {
+              "date": "2023年1月",
+              "title": "アーサーの誕生",
+              "description": ""
+            }
+          ],
+          "description": "雨がいつも杉と濡れたアスファルトの香りがする街、オークヘイブン。エリアスは「死にかけた」時計を売る店を営んでいました。彼は時計を完璧に直すのではなく、その個性を活かすように手を加えました。足を引きずるような音を立てるものや、半音狂った鐘を鳴らすものもありましたが、エリアスはその頑固な時計たちを愛していました。"
+        },
+        "timeline": [
+          {
+            "title": "挙式",
+            "description": ""
+          },
+          {
+            "title": "ウェディング",
+            "description": ""
+          },
+          {
+            "title": "ディナー",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "この日を心待ちにしています！"
+        },
+        "dressCode": {
+          "code": "セミフォーマル",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "スーツ＆ネクタイ",
+          "codeWomen": "カクテルドレス",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "テスト",
+          "title": "私たちの結婚式にご招待いたします",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "1日目",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "2日目",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "会場周辺のおすすめスポット",
+          "items": [
+            {
+              "name": "湖畔の散歩",
+              "category": "nature",
+              "description": "岸辺に打ち寄せる水の穏やかなリズムが、曲がりくねった道での安らかな散歩に心地よいBGMを奏でてくれます"
+            },
+            {
+              "name": "レストラン",
+              "category": "restaurant",
+              "description": "極上のダイニングシーンといえば、モボリ地区は別格です。ミシュランの星を獲得した名店から隠れた名店まで、活気ある食文化が楽しめます。"
+            }
+          ]
+        },
+        "destination": {
+          "city": "マイアミ"
+        },
+        "boardingPass": {
+          "destinationCity": "マイアミ"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "ランチ",
+                "description": ""
+              },
+              {
+                "title": "挙式",
+                "description": ""
+              },
+              {
+                "title": "パーティ",
+                "description": ""
+              },
+              {
+                "title": "終了",
+                "description": ""
+              }
+            ],
+            "label": "1日目",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "2日目"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "ブライズメイド",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "ベストマン",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "親愛なる両親へ",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "以下のホテルをご用意しております",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "以下のリンクから直接予約していただくと、割引が適用されます"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "以下のリンクから直接予約していただくと、割引が適用されます",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "セミフォーマル",
+            "label": "1日目",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "スーツ＆ネクタイ",
+            "codeWomen": "カクテルドレス"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "スクラッチして日付を確認",
+          "revealedMessage": "私たちの結婚が決まりました"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "ランチ",
+                    "description": ""
+                  },
+                  {
+                    "title": "挙式",
+                    "description": ""
+                  }
+                ],
+                "label": "1日目",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "イビザ",
+          "country": "スペイン"
+        }
+      },
+      "headline_subtitle": "私たちの結婚が決まりました"
+    },
+    "nl": {
+      "message": "\n\n\nU bent van harte uitgenodigd voor onze speciale dag\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "kaviaar",
+              "vis"
+            ],
+            "question": "Hoofdgerecht"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Hallo"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Absoluut niet",
+            "question": "Mag ik mijn kinderen meenemen?"
+          },
+          {
+            "answer": "Met het vliegtuig",
+            "question": "Wat is de beste manier om er te komen?"
+          },
+          {
+            "answer": "Door uw naam in te voeren bij de RSVP; daar wordt zichtbaar of u een extra gast mag meebrengen.",
+            "question": "Mag ik een introducee meenemen?"
+          },
+          {
+            "answer": "Ja, de locatie biedt parkeergelegenheid direct naast de deur",
+            "question": "Is er parkeergelegenheid in de buurt?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata & Heirloom Tomatenmix",
+                  "description": "Romige Italiaanse burrata gecombineerd met zongerijpte heirloom tomaten"
+                }
+              ],
+              "title": "Voorgerecht"
+            },
+            {
+              "items": [
+                {
+                  "name": "Miso-Geglaceerde Ossenhaas",
+                  "description": "Eersteklas ossenhaas, in de pan geschroeid en geserveerd op een zijdezachte pastinaakpuree."
+                }
+              ],
+              "title": "Hoofdgerecht"
+            },
+            {
+              "items": [
+                {
+                  "name": "Velvet Witte Chocolade & Frambozenmousse",
+                  "description": "Een vederlichte koepel van witte chocolade"
+                }
+              ],
+              "title": "Nagerecht"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Uw aanwezigheid is ons grootste geschenk, maar eventuele bijdragen kunnen worden overgemaakt naar de onderstaande bankgegevens",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Ons Verhaal",
+          "milestones": [
+            {
+              "date": "Juni 2021",
+              "title": "Onze Eerste Kus",
+              "description": ""
+            },
+            {
+              "date": "Juni 2022",
+              "title": "De Verloving",
+              "description": ""
+            },
+            {
+              "date": "Januari 2023",
+              "title": "Geboorte van Arthur",
+              "description": ""
+            }
+          ],
+          "description": "In de stad Oakhaven, waar de regen altijd leek te ruiken naar cederhout en nat asfalt, runde Elias een winkel in 'bijna-dode' klokken. Hij repareerde ze niet om ze perfect te maken; hij repareerde ze om hun karakter te behouden. Sommige tikten met een lichte mankheid, andere sloegen een noot te laag, maar Elias hield van ze om hun eigenwijsheid."
+        },
+        "timeline": [
+          {
+            "title": "ceremonie",
+            "description": ""
+          },
+          {
+            "title": "bruiloft",
+            "description": ""
+          },
+          {
+            "title": "diner",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "We kunnen niet wachten tot dit moment!"
+        },
+        "dressCode": {
+          "code": "Semi-Formeel",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Pak & Das",
+          "codeWomen": "Cocktailjurk",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Wij willen u graag uitnodigen voor onze bruiloft",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Dag 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Dag 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Enkele van onze favoriete activiteiten in de buurt",
+          "items": [
+            {
+              "name": "Wandeling bij het meer",
+              "category": "natuur",
+              "description": "Het rustige ritme van het water tegen de oever vormt het serene decor voor een ontspannende wandeling over het kronkelende pad"
+            },
+            {
+              "name": "Restaurant",
+              "category": "restaurant",
+              "description": "Als het gaat om een culinaire ervaring van topniveau, is de wijk Moboli ongeëvenaard, met een bruisende mix van Michelin-sterren en verborgen gastronomische parels."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Lunch",
+                "description": ""
+              },
+              {
+                "title": "Ceremonie",
+                "description": ""
+              },
+              {
+                "title": "Feest",
+                "description": ""
+              },
+              {
+                "title": "Einde",
+                "description": ""
+              }
+            ],
+            "label": "Dag 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Dag 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Bruidsmeisjes",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Getuige",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "Ter ere van onze ouders",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Wij hebben deze hotels voor u geselecteerd",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "U kunt direct boeken via de onderstaande link voor een korting"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "U kunt direct boeken via de onderstaande link voor een korting",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formeel",
+            "label": "Dag 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Pak & Das",
+            "codeWomen": "Cocktailjurk"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "KRAS OM DE DATUM TE ONTDEKKEN",
+          "revealedMessage": "Wij gaan trouwen"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Lunch",
+                    "description": ""
+                  },
+                  {
+                    "title": "Ceremonie",
+                    "description": ""
+                  }
+                ],
+                "label": "Dag 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Spanje"
+        }
+      },
+      "headline_subtitle": "Wij gaan trouwen"
+    },
+    "pl": {
+      "message": "\n\n\nSerdecznie zapraszamy na nasz wyjątkowy dzień\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "kawior",
+              "ryba"
+            ],
+            "question": "Danie główne"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Witaj"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Zdecydowanie nie",
+            "question": "Czy mogę zabrać dzieci?"
+          },
+          {
+            "answer": "Samolotem",
+            "question": "Jaki jest najlepszy sposób, aby tam dotrzeć?"
+          },
+          {
+            "answer": "Wybierając swoje nazwisko w sekcji RSVP; tam wyświetli się informacja, czy możesz zaprosić osobę towarzyszącą.",
+            "question": "Czy mogę przyjść z osobą towarzyszącą?"
+          },
+          {
+            "answer": "Tak, obiekt oferuje parking tuż obok",
+            "question": "Czy w pobliżu znajduje się parking?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata i pomidory Heirloom",
+                  "description": "Kremowa włoska burrata w połączeniu z dojrzewającymi w słońcu pomidorami odmian dawnych"
+                }
+              ],
+              "title": "Przystawka"
+            },
+            {
+              "items": [
+                {
+                  "name": "Polędwica wołowa w glazurze miso",
+                  "description": "Najwyższej jakości polędwica wołowa, podsmażana na patelni i podawana na jedwabistym puree z pasternaku."
+                }
+              ],
+              "title": "Danie główne"
+            },
+            {
+              "items": [
+                {
+                  "name": "Aksamitny mus z białej czekolady i malin",
+                  "description": "Lekka jak chmurka kopuła z białej czekolady"
+                }
+              ],
+              "title": "Deser"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Wasza obecność jest dla nas największym prezentem, ale ewentualne upominki prosimy kierować na poniższe dane bankowe",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Nasza Historia",
+          "milestones": [
+            {
+              "date": "Czerwiec 2021",
+              "title": "Nasz pierwszy pocałunek",
+              "description": ""
+            },
+            {
+              "date": "Czerwiec 2022",
+              "title": "Dzień naszych zaręczyn",
+              "description": ""
+            },
+            {
+              "date": "Styczeń 2023",
+              "title": "Narodziny Arthura",
+              "description": ""
+            }
+          ],
+          "description": "W mieście Oakhaven, gdzie deszcz zawsze pachniał cedrem i mokrym chodnikiem, Elias prowadził sklep z „niemal martwymi” zegarami. Nie naprawiał ich tak, by były idealne; naprawiał je tak, by zachowały swój charakter. Niektóre tykały z lekkim opóźnieniem, inne wybijały zbyt niskie tony, ale Elias kochał je za ich upór"
+        },
+        "timeline": [
+          {
+            "title": "Ceremonia",
+            "description": ""
+          },
+          {
+            "title": "Wesele",
+            "description": ""
+          },
+          {
+            "title": "Kolacja",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Nie możemy się doczekać tej chwili!"
+        },
+        "dressCode": {
+          "code": "Semi-Formal",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Garnitur i krawat",
+          "codeWomen": "Sukienka koktajlowa",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Chcielibyśmy zaprosić Was na nasz ślub",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Dzień 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Dzień 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Kilka naszych ulubionych miejsc w okolicy",
+          "items": [
+            {
+              "name": "Spacer nad jeziorem",
+              "category": "nature",
+              "description": "Delikatny rytm wody uderzającej o brzeg tworzy kojącą ścieżkę dźwiękową dla spokojnego spaceru krętą ścieżką"
+            },
+            {
+              "name": "Restauracja",
+              "category": "restaurant",
+              "description": "Jeśli mowa o prawdziwie elitarnej scenie gastronomicznej, okolica Moboli nie ma sobie równych, oferując tętniącą życiem mieszankę restauracji z gwiazdkami Michelin i ukrytych kulinarnych perełek."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Lunch",
+                "description": ""
+              },
+              {
+                "title": "Ceremonia",
+                "description": ""
+              },
+              {
+                "title": "Przyjęcie",
+                "description": ""
+              },
+              {
+                "title": "Zakończenie",
+                "description": ""
+              }
+            ],
+            "label": "Dzień 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Dzień 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Druhny",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Świadek",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "W dowód uznania dla naszych Rodziców",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Przygotowaliśmy dla Was ofertę tych hoteli",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Możecie dokonać rezerwacji bezpośrednio przez poniższy link, aby skorzystać ze zniżki"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Możecie dokonać rezerwacji bezpośrednio przez poniższy link, aby skorzystać ze zniżki",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formal",
+            "label": "Dzień 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Garnitur i krawat",
+            "codeWomen": "Sukienka koktajlowa"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "ZDRAP, ABY ODKRYĆ DATĘ",
+          "revealedMessage": "Bierzemy ślub"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Lunch",
+                    "description": ""
+                  },
+                  {
+                    "title": "Ceremonia",
+                    "description": ""
+                  }
+                ],
+                "label": "Dzień 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Hiszpania"
+        }
+      },
+      "headline_subtitle": "Bierzemy ślub"
+    },
+    "pt": {
+      "message": "\n\n\nEstá convidado para o nosso dia especial\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "caviar",
+              "peixe"
+            ],
+            "question": "Prato Principal"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Olá"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Claro que nãooo",
+            "question": "Posso levar os meus filhos?"
+          },
+          {
+            "answer": "De avião",
+            "question": "Qual é a melhor forma de chegar lá?"
+          },
+          {
+            "answer": "Ao introduzir o seu nome no RSVP, poderá ver se tem direito a um acompanhante ou não.",
+            "question": "Posso levar um acompanhante?"
+          },
+          {
+            "answer": "Sim, o local oferece estacionamento logo ao lado",
+            "question": "Existe estacionamento por perto?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata & Seleção de Tomates Herdade",
+                  "description": "Burrata italiana cremosa acompanhada por tomates de variedades tradicionais amadurecidos ao sol"
+                }
+              ],
+              "title": "Entrada"
+            },
+            {
+              "items": [
+                {
+                  "name": "Lombo de Novilho Glaceado com Miso",
+                  "description": "Corte nobre de lombo de novilho, selado na frigideira e servido sobre um puré sedoso de cherovia."
+                }
+              ],
+              "title": "Prato Principal"
+            },
+            {
+              "items": [
+                {
+                  "name": "Mousse de Veludo de Chocolate Branco e Framboesa",
+                  "description": "Uma cúpula de chocolate branco leve como o ar"
+                }
+              ],
+              "title": "Sobremesa"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "A vossa presença é o nosso maior presente, mas todas as contribuições podem ser feitas através dos dados bancários abaixo",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "A Nossa História",
+          "milestones": [
+            {
+              "date": "Junho 2021",
+              "title": "O Nosso Primeiro Beijo",
+              "description": ""
+            },
+            {
+              "date": "Junho 2022",
+              "title": "O Nosso Dia de Noivado",
+              "description": ""
+            },
+            {
+              "date": "Janeiro 2023",
+              "title": "O Nascimento do Arthur",
+              "description": ""
+            }
+          ],
+          "description": "Na cidade de Oakhaven, onde a chuva parecia sempre cheirar a cedro e pavimento molhado, Elias geria uma loja que vendia relógios \"quase mortos\". Ele não os reparava para serem perfeitos; reparava-os para manterem o seu caráter. Alguns tiquetaqueavam com um ligeiro mancar, outros tocavam uma nota desafinada, mas Elias amava-os pela sua teimosia"
+        },
+        "timeline": [
+          {
+            "title": "Cerimónia",
+            "description": ""
+          },
+          {
+            "title": "Casamento",
+            "description": ""
+          },
+          {
+            "title": "Jantar",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Mal podemos esperar por este momento!"
+        },
+        "dressCode": {
+          "code": "Semi-Formal",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Fato e Gravata",
+          "codeWomen": "Vestido de Cocktail",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "teste teste",
+          "title": "Gostaríamos de o convidar para o nosso casamento",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Dia 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Dia 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Algumas das nossas coisas favoritas para fazer por perto",
+          "items": [
+            {
+              "name": "Passeio junto ao lago",
+              "category": "nature",
+              "description": "O ritmo suave da água a bater na margem cria uma banda sonora serena para um passeio tranquilo ao longo do caminho sinuoso"
+            },
+            {
+              "name": "Restaurante",
+              "category": "restaurant",
+              "description": "Quando se trata de uma cena gastronómica de elite, a zona de Moboli está num nível à parte, ostentando uma mistura vibrante de excelência com estrelas Michelin e tesouros culinários escondidos."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Almoço",
+                "description": ""
+              },
+              {
+                "title": "Cerimónia",
+                "description": ""
+              },
+              {
+                "title": "Festa",
+                "description": ""
+              },
+              {
+                "title": "Fim",
+                "description": ""
+              }
+            ],
+            "label": "Dia 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Dia 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Damas de Honor",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Padrinho",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "Em Honra dos Nossos Pais",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "organizámos estes hotéis para si",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Pode reservar diretamente através do link abaixo para obter um desconto"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Pode reservar diretamente através do link abaixo para obter um desconto",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formal",
+            "label": "Dia 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Fato e Gravata",
+            "codeWomen": "Vestido de Cocktail"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "RASPE PARA DESCOBRIR A DATA",
+          "revealedMessage": "Vamos casar"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Almoço",
+                    "description": ""
+                  },
+                  {
+                    "title": "Cerimónia",
+                    "description": ""
+                  }
+                ],
+                "label": "Dia 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Espanha"
+        }
+      },
+      "headline_subtitle": "Vamos casar"
+    },
+    "ro": {
+      "message": "\n\n\nSunteți invitați să ne fiți alături în această zi specială\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "caviar",
+              "pește"
+            ],
+            "question": "Fel Principal"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Bună"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "Din păcate, nu",
+            "question": "Pot să aduc copiii?"
+          },
+          {
+            "answer": "Cu avionul",
+            "question": "Care este cel mai bun mod de a ajunge acolo?"
+          },
+          {
+            "answer": "Introducând numele tău în secțiunea RSVP; acolo se va afișa dacă poți veni cu un însoțitor.",
+            "question": "Pot să aduc un însoțitor?"
+          },
+          {
+            "answer": "Da, locația oferă parcare chiar alături",
+            "question": "Există parcare în apropiere?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Burrata și Mixt de Roșii Heirloom",
+                  "description": "Burrata italiană cremoasă acompaniată de roșii heirloom coapte la soare"
+                }
+              ],
+              "title": "Aperitiv"
+            },
+            {
+              "items": [
+                {
+                  "name": "Mușchi de Vită Glazurat cu Miso",
+                  "description": "Mușchi de vită de calitate superioară, tras la tigaie și servit pe un piure fin de păstârnac."
+                }
+              ],
+              "title": "Fel Principal"
+            },
+            {
+              "items": [
+                {
+                  "name": "Mousse de Ciocolată Albă și Zmeură",
+                  "description": "Un dom de ciocolată albă, ușor ca aerul"
+                }
+              ],
+              "title": "Desert"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Prezența voastră este cel mai frumos cadou, însă orice contribuție poate fi trimisă în detaliile bancare de mai jos",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Povestea Noastră",
+          "milestones": [
+            {
+              "date": "Iunie 2021",
+              "title": "Primul nostru sărut",
+              "description": ""
+            },
+            {
+              "date": "Iunie 2022",
+              "title": "Ziua logodnei",
+              "description": ""
+            },
+            {
+              "date": "Ianuarie 2023",
+              "title": "S-a născut Arthur",
+              "description": ""
+            }
+          ],
+          "description": "În orașul Oakhaven, unde ploaia părea să miroasă mereu a cedru și pavaj umed, Elias conducea un magazin de ceasuri „aproape moarte”. Nu le repara pentru a fi perfecte; le repara pentru a le păstra caracterul. Unele ticăiau cu un ușor șchiopătat, altele sunau o notă prea falsă, dar Elias le iubea pentru încăpățânarea lor."
+        },
+        "timeline": [
+          {
+            "title": "Ceremonie",
+            "description": ""
+          },
+          {
+            "title": "Nuntă",
+            "description": ""
+          },
+          {
+            "title": "Cină",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Abia așteptăm acest moment!"
+        },
+        "dressCode": {
+          "code": "Semi-Formal",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Costum și Cravată",
+          "codeWomen": "Rochie de cocktail",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "test test",
+          "title": "Ne face plăcere să vă invităm la nunta noastră",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": [
+            {
+              "type": "plane",
+              "title": "Ryain air",
+              "details": ""
+            }
+          ]
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "Ziua 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "Ziua 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Câteva dintre activitățile noastre preferate în apropiere",
+          "items": [
+            {
+              "name": "Plimbare pe malul lacului",
+              "category": "natură",
+              "description": "Ritmul blând al apei care se lovește de țărm creează o coloană sonoră serenă pentru o plimbare liniștită pe poteca șerpuită."
+            },
+            {
+              "name": "Restaurant",
+              "category": "restaurant",
+              "description": "Când vine vorba de o scenă gastronomică de elită, zona Moboli este de neegalat, oferind un mix vibrant între excelența stelelor Michelin și bijuterii culinare ascunse."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Prânz",
+                "description": ""
+              },
+              {
+                "title": "Ceremonie",
+                "description": ""
+              },
+              {
+                "title": "Petrecere",
+                "description": ""
+              },
+              {
+                "title": "Final",
+                "description": ""
+              }
+            ],
+            "label": "Ziua 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "Ziua 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Domnișoare de Onoare",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Cavaler de Onoare",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "În Onoarea Părinților Noștri",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "Am ales aceste hoteluri pentru cazarea voastră",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Puteți rezerva direct folosind link-ul de mai jos pentru a beneficia de o reducere"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Puteți rezerva direct folosind link-ul de mai jos pentru a beneficia de o reducere",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formal",
+            "label": "Ziua 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Costum și Cravată",
+            "codeWomen": "Rochie de cocktail"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "RĂZUIEȘTE PENTRU A DESCOPERI DATA",
+          "revealedMessage": "Ne căsătorim"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Prânz",
+                    "description": ""
+                  },
+                  {
+                    "title": "Ceremonie",
+                    "description": ""
+                  }
+                ],
+                "label": "Ziua 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "Spania"
+        }
+      },
+      "headline_subtitle": "Ne căsătorim"
+    },
+    "ru": {
+      "message": "\n\n\nПриглашаем вас разделить с нами этот особенный день\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "икра",
+              "рыба"
+            ],
+            "question": "Основное блюдо"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "Привет"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "К сожалению, нет",
+            "question": "Можно ли взять с собой детей?"
+          },
+          {
+            "answer": "На самолете",
+            "question": "Как лучше всего добраться?"
+          },
+          {
+            "answer": "При вводе вашего имени в RSVP будет указано, предусмотрен ли плюс один.",
+            "question": "Можно ли пригласить еще одного человека?"
+          },
+          {
+            "answer": "Да, рядом с местом проведения торжества есть парковка",
+            "question": "Есть ли поблизости парковка?"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "Буррата и ассорти из томатов",
+                  "description": "Сливочная итальянская буррата в сочетании со спелыми томатами старинных сортов"
+                }
+              ],
+              "title": "Стартер"
+            },
+            {
+              "items": [
+                {
+                  "name": "Филе-миньон в глазури мисо",
+                  "description": "Отборное филе говядины, обжаренное до золотистой корочки, подается на нежном пюре из пастернака."
+                }
+              ],
+              "title": "Основное блюдо"
+            },
+            {
+              "items": [
+                {
+                  "name": "Бархатный мусс из белого шоколада и малины",
+                  "description": "Воздушный купол из белого шоколада"
+                }
+              ],
+              "title": "Десерт"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "Ваше присутствие — лучший подарок для нас, но если вы хотите внести свой вклад, вы можете воспользоваться банковскими реквизитами ниже",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "Наша история",
+          "milestones": [
+            {
+              "date": "Июнь 2021",
+              "title": "Наш первый поцелуй",
+              "description": ""
+            },
+            {
+              "date": "Июнь 2022",
+              "title": "День нашей помолвки",
+              "description": ""
+            },
+            {
+              "date": "Январь 2023",
+              "title": "Родился Артур",
+              "description": ""
+            }
+          ],
+          "description": "В городе Окхейвен, где дождь всегда пах кедром и влажным асфальтом, Элиас держал лавку «почти умерших» часов. Он не стремился сделать их идеальными; он чинил их так, чтобы сохранить их характер. Некоторые тикали с легкой хромотой, другие звучали чуть фальшиво, но Элиас любил их за их упрямство."
+        },
+        "timeline": [
+          {
+            "title": "церемония",
+            "description": ""
+          },
+          {
+            "title": "свадьба",
+            "description": ""
+          },
+          {
+            "title": "ужин",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "Мы с нетерпением ждем этого момента!"
+        },
+        "dressCode": {
+          "code": "Semi-Formal",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "Костюм и галстук",
+          "codeWomen": "Коктейльное платье",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "тест тест",
+          "title": "Мы хотели бы пригласить вас на нашу свадьбу",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "День 1",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "День 2",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "Несколько наших любимых мест в округе",
+          "items": [
+            {
+              "name": "Прогулка у озера",
+              "category": "природа",
+              "description": "Спокойный ритм воды, плещущейся о берег, создает безмятежный фон для неспешной прогулки по извилистой тропинке."
+            },
+            {
+              "name": "Ресторан",
+              "category": "ресторан",
+              "description": "Когда дело доходит до по-настоящему элитной гастрономии, район Моболи не имеет себе равных, предлагая яркое сочетание мишленовских ресторанов и скрытых кулинарных сокровищ."
+            }
+          ]
+        },
+        "destination": {
+          "city": "Майами"
+        },
+        "boardingPass": {
+          "destinationCity": "Майами"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "Обед",
+                "description": ""
+              },
+              {
+                "title": "Церемония",
+                "description": ""
+              },
+              {
+                "title": "Вечеринка",
+                "description": ""
+              },
+              {
+                "title": "Завершение",
+                "description": ""
+              }
+            ],
+            "label": "День 1",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "День 2"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "Подружки невесты",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "Шафер",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "В честь наших родителей",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "мы подготовили для вас эти варианты размещения",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "Вы можете забронировать номер напрямую по ссылке ниже, чтобы получить скидку"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "Вы можете забронировать номер напрямую по ссылке ниже, чтобы получить скидку",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "Semi-Formal",
+            "label": "День 1",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "Костюм и галстук",
+            "codeWomen": "Коктейльное платье"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "СОТРИТЕ, ЧТОБЫ УЗНАТЬ ДАТУ",
+          "revealedMessage": "Мы женимся"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "Обед",
+                    "description": ""
+                  },
+                  {
+                    "title": "Церемония",
+                    "description": ""
+                  }
+                ],
+                "label": "День 1",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ибица",
+          "country": "Испания"
+        }
+      },
+      "headline_subtitle": "Мы женимся"
+    },
+    "zh": {
+      "message": "\n\n\n诚邀您参加我们的特别日子\n\n",
+      "headline": "\n\n\n\n\n\n\n\nMohammed\n&\nLeila\n",
+      "rsvpConfig": {
+        "customQuestions": [
+          {
+            "id": "custom-1774875230127",
+            "options": [
+              "鱼子酱",
+              "鱼类"
+            ],
+            "question": "主菜选择"
+          },
+          {
+            "id": "custom-1777150988891",
+            "question": "你好"
+          }
+        ]
+      },
+      "blockContent": {
+        "faq": [
+          {
+            "answer": "非常抱歉，我们无法接待儿童",
+            "question": "我可以带孩子吗？"
+          },
+          {
+            "answer": "乘坐飞机是最便捷的方式",
+            "question": "到达那里的最佳方式是什么？"
+          },
+          {
+            "answer": "请在回执（RSVP）中输入您的姓名，系统将显示您是否可以携带伴侣。",
+            "question": "我可以携带伴侣吗？"
+          },
+          {
+            "answer": "是的，场地隔壁设有停车场",
+            "question": "附近有停车位吗？"
+          }
+        ],
+        "menu": {
+          "categories": [
+            {
+              "items": [
+                {
+                  "name": "布拉塔芝士与传承番茄拼盘",
+                  "description": "丝滑的意大利布拉塔芝士配以阳光熟成的传承番茄"
+                }
+              ],
+              "title": "前菜"
+            },
+            {
+              "items": [
+                {
+                  "name": "味噌渍牛里脊",
+                  "description": "顶级牛里脊，煎制后搭配细腻的欧防风泥"
+                }
+              ],
+              "title": "主菜"
+            },
+            {
+              "items": [
+                {
+                  "name": "丝绒白巧克力覆盆子慕斯",
+                  "description": "轻盈如云的白巧克力球"
+                }
+              ],
+              "title": "甜点"
+            }
+          ]
+        },
+        "gallery": {
+          "captions": [
+            "",
+            ""
+          ]
+        },
+        "drawings": {
+          "drawing-1": "line-art-champagne",
+          "drawing-2": "line-art-champagne",
+          "drawing-3": "line-art-cake",
+          "drawing-4": "portuguese-tiles"
+        },
+        "giftList": {
+          "message": "您的出席就是我们最好的礼物。若您想表达额外的心意，可通过以下银行信息进行馈赠",
+          "registries": [
+            {
+              "name": "amazon"
+            }
+          ],
+          "bankDetails": {
+            "iban": "BE89 565 52 24 55",
+            "bankName": "KBC",
+            "accountHolder": "Greg"
+          },
+          "bankAccounts": [
+            {
+              "iban": "BE89 565 52 24 55",
+              "label": "",
+              "bankName": "KBC",
+              "accountHolder": "Greg"
+            }
+          ],
+          "showBankDetails": true
+        },
+        "ourStory": {
+          "title": "我们的故事",
+          "milestones": [
+            {
+              "date": "2021年6月",
+              "title": "初吻",
+              "description": ""
+            },
+            {
+              "date": "2022年6月",
+              "title": "订婚之日",
+              "description": ""
+            },
+            {
+              "date": "2023年1月",
+              "title": "Arthur 出生",
+              "description": ""
+            }
+          ],
+          "description": "在 Oakhaven 城，这里的雨总带着雪松和湿沥青的味道。Elias 经营着一家出售“濒临停走”座钟的店铺。他并不追求修旧如新，而是修复其独特的个性。有的钟表走起来一瘸一拐，有的报时音准略偏，但 Elias 正是因为它们的这份顽固而深爱着它们。"
+        },
+        "timeline": [
+          {
+            "title": "仪式",
+            "description": ""
+          },
+          {
+            "title": "婚礼",
+            "description": ""
+          },
+          {
+            "title": "晚宴",
+            "description": ""
+          }
+        ],
+        "countdown": {
+          "message": "我们迫不及待想与您共同见证这一刻！"
+        },
+        "dressCode": {
+          "code": "半正式",
+          "colors": [
+            "#c9b8a4",
+            "#ffffff"
+          ],
+          "codeMen": "西装领带",
+          "codeWomen": "鸡尾酒礼服",
+          "description": ""
+        },
+        "galleries": {
+          "gallery": {
+            "captions": [
+              "",
+              ""
+            ]
+          }
+        },
+        "textBlock": {
+          "text": "测试 测试",
+          "title": "我们诚挚地邀请您参加我们的婚礼",
+          "alignment": "left"
+        },
+        "transport": {
+          "options": []
+        },
+        "venueDays": [
+          {
+            "name": "Occean front beach House",
+            "label": "第一天",
+            "address": "South Dixie Highway, Homestead, Miami-Dade County, Florida, 33030, United States",
+            "mapsUrl": "https://maps.google.com/?q=South%20Dixie%20Highway%2C%20Homestead%2C%20Miami-Dade%20County%2C%20Florida%2C%2033030%2C%20United%20States"
+          },
+          {
+            "name": "The grand Castle",
+            "label": "第二天",
+            "address": "Schijnpoortweg 137",
+            "mapsUrl": "https://maps.google.com/?q=Schijnpoortweg%20137"
+          }
+        ],
+        "thingsToDo": {
+          "note": "附近我们最喜欢去的地方",
+          "items": [
+            {
+              "name": "湖边漫步",
+              "category": "nature",
+              "description": "湖水拍打岸边的温柔节奏，为沿着蜿蜒小径的宁静漫步谱写了一曲自然乐章"
+            },
+            {
+              "name": "餐厅",
+              "category": "restaurant",
+              "description": "说到顶尖的餐饮体验，Moboli 地区独树一帜，融合了米其林星级的卓越品质和许多鲜为人知的烹饪珍宝。"
+            }
+          ]
+        },
+        "destination": {
+          "city": "Miami"
+        },
+        "boardingPass": {
+          "destinationCity": "Miami"
+        },
+        "timelineDays": [
+          {
+            "items": [
+              {
+                "title": "午餐",
+                "description": ""
+              },
+              {
+                "title": "仪式",
+                "description": ""
+              },
+              {
+                "title": "派对",
+                "description": ""
+              },
+              {
+                "title": "结束",
+                "description": ""
+              }
+            ],
+            "label": "第一天",
+            "categoryIds": [
+              "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+            ]
+          },
+          {
+            "items": [
+              {
+                "title": "14:00",
+                "description": ""
+              },
+              {
+                "title": "20:00",
+                "description": ""
+              },
+              {
+                "title": "22:00",
+                "description": ""
+              },
+              {
+                "title": "02:00",
+                "description": ""
+              },
+              {
+                "title": "",
+                "description": ""
+              }
+            ],
+            "label": "第二天"
+          }
+        ],
+        "weddingParty": {
+          "groups": [
+            {
+              "title": "伴娘团",
+              "members": [
+                {
+                  "name": "Anna Grolaard"
+                }
+              ]
+            },
+            {
+              "title": "伴郎",
+              "members": [
+                {
+                  "name": "Fred"
+                }
+              ]
+            },
+            {
+              "title": "致敬我们的父母",
+              "members": [
+                {
+                  "name": "Camilla"
+                },
+                {
+                  "name": "John"
+                }
+              ]
+            }
+          ]
+        },
+        "accommodation": {
+          "note": "我们为您安排了以下酒店",
+          "hotels": [
+            {
+              "name": "Hotel Costa",
+              "priceRange": "4100",
+              "description": "您可以使用下方链接直接预订以享受折扣"
+            },
+            {
+              "name": "Hotal Love",
+              "priceRange": "120€",
+              "description": "您可以使用下方链接直接预订以享受折扣",
+              "discountCode": ""
+            }
+          ]
+        },
+        "dressCodeDays": [
+          {
+            "code": "半正式",
+            "label": "第一天",
+            "colors": [
+              "#c9b8a4",
+              "#ffffff"
+            ],
+            "codeMen": "西装领带",
+            "codeWomen": "鸡尾酒礼服"
+          }
+        ],
+        "scratchTheDate": {
+          "message": "刮开涂层 揭晓日期",
+          "revealedMessage": "我们要结婚了"
+        },
+        "weddingWebsite": {},
+        "categoryContent": {
+          "9bb48956-8032-4e5c-bda0-9eb894d73be6": {
+            "timelineDays": [
+              {
+                "items": [
+                  {
+                    "title": "午餐",
+                    "description": ""
+                  },
+                  {
+                    "title": "仪式",
+                    "description": ""
+                  }
+                ],
+                "label": "第一天",
+                "categoryIds": [
+                  "9bb48956-8032-4e5c-bda0-9eb894d73be6"
+                ]
+              }
+            ],
+            "accommodations": {
+              "accommodation": {
+                "hotels": [
+                  {
+                    "name": "Hotel 1",
+                    "priceRange": "11",
+                    "description": "",
+                    "discountCode": ""
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "travelDestination": {
+          "city": "Ibiza",
+          "country": "西班牙"
+        }
+      },
+      "headline_subtitle": "我们要结婚了"
+    }
+  }
+}
