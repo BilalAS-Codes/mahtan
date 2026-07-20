@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { audioEngine } from '../../utils/audioEngine';
 
 export function VideoLanding({ onOpenComplete }) {
   const videoRef = useRef(null);
@@ -8,6 +9,8 @@ export function VideoLanding({ onOpenComplete }) {
     if (videoRef.current && !isPlaying) {
       videoRef.current.play();
       setIsPlaying(true);
+      // Start background music immediately on user interaction click
+      audioEngine.start();
     }
   };
 
