@@ -28,7 +28,7 @@ export function RSVPForm({ isOpen, onClose }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    if (!name) return;
+    if (!name || submitting) return; // Prevent double submissions
 
     setSubmitting(true);
 
@@ -250,9 +250,10 @@ export function RSVPForm({ isOpen, onClose }) {
               {/* Submit */}
               <button
                 type="submit"
-                className="group relative w-full flex items-center justify-between pl-6 pr-2 py-2 mt-4 rounded-sm bg-champagne-500 text-white font-serif font-bold tracking-widest uppercase text-xs transition-all duration-700 ease-[cubic-bezier(0.175,0.885,0.32,1.275)] shadow-xl shadow-champagne-500/20 hover:shadow-champagne-500/40 hover:bg-champagne-600 active:scale-[0.98]"
+                disabled={submitting}
+                className={`group relative w-full flex items-center justify-between pl-6 pr-2 py-2 mt-4 rounded-sm text-white font-serif font-bold tracking-widest uppercase text-xs transition-all duration-700 ease-[cubic-bezier(0.175,0.885,0.32,1.275)] shadow-xl shadow-champagne-500/20 hover:shadow-champagne-500/40 hover:bg-champagne-600 active:scale-[0.98] ${submitting ? 'bg-champagne-400 cursor-not-allowed opacity-70' : 'bg-champagne-500'}`}
               >
-                <span>Submit Response</span>
+                <span>{submitting ? 'Submitting...' : 'Submit Response'}</span>
                 <div className="w-10 h-10 rounded-sm bg-white/20 flex items-center justify-center transition-all duration-700 ease-[cubic-bezier(0.175,0.885,0.32,1.275)] group-hover:translate-x-1 group-hover:-translate-y-[1px] group-hover:scale-105 group-hover:bg-white/30">
                   <Send className="w-4 h-4" />
                 </div>
