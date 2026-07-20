@@ -10,7 +10,7 @@
  */
 
 // Google Apps Script Web App URL (your deployed endpoint)
-const RSVP_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyGO1HWIGZj1D3HT4WsVstthmFxoVC3y-I8jkrxhuDYZzIKA5fZgKUBWJFeOjDEGaoQ4g/exec';
+const RSVP_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwTCIRcFjdH4U3qXGRbpp98nJxqOoruOfyaX1J6KY41Mxlg2fDgzAd0KEHbzJbTw8Id/exec';
 
 export async function submitRSVP(formData) {
     try {
@@ -44,7 +44,7 @@ export async function fetchRSVPs(secretKey) {
     }
 }
 
-/**
+/** 
  * ============================================================
  * GOOGLE APPS SCRIPT CODE
  * ============================================================
