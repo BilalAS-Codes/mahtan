@@ -9,8 +9,8 @@
  * 5. Share the resulting Google Sheet with your email to view responses
  */
 
-// ⚠️ REPLACE THIS with your deployed Google Apps Script Web App URL
-const RSVP_ENDPOINT = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec';
+// Google Apps Script Web App URL (your deployed endpoint)
+const RSVP_ENDPOINT = 'https://script.google.com/macros/s/AKfycbyGO1HWIGZj1D3HT4WsVstthmFxoVC3y-I8jkrxhuDYZzIKA5fZgKUBWJFeOjDEGaoQ4g/exec';
 
 export async function submitRSVP(formData) {
     try {
