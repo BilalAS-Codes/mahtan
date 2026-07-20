@@ -38,7 +38,7 @@ const MenuFrame = ({ children }) => (
   <div className="relative py-14 px-8 my-6 bg-transparent flex flex-col justify-center items-center min-h-[300px]">
     {/* Frame Image overlay */}
     <img
-      src="/fraem.png"
+      src="./fraem.png"
       alt="Menu Frame"
       className="absolute inset-0 w-full h-full object-fill pointer-events-none z-0"
     />
@@ -170,7 +170,7 @@ export default function App() {
           {/* ===== 1st VIDEO HERO WITH SUBTLE TEXT SHADOW OVERLAY ===== */}
           <div className="w-full h-screen relative overflow-hidden bg-[#EDE3D4] z-10">
             <video
-              src="/shining-light-theme-HpLqBRD3.mp4"
+              src="./shining-light-theme-HpLqBRD3.mp4"
               autoPlay
               loop
               muted
@@ -221,7 +221,7 @@ export default function App() {
             {/* ===== COUNTDOWN SECTION ===== */}
             <div
               className="text-center relative py-10 px-6 rounded-3xl bg-cover bg-center overflow-hidden border border-[#CBB494]"
-              style={{ backgroundImage: "url('/embroidery-beige-bg-DRgV_0KT.png')" }}
+              style={{ backgroundImage: "url('./embroidery-beige-bg-DRgV_0KT.png')" }}
             >
               <div className="absolute inset-0 bg-[#F8F5F2]/45 pointer-events-none" />
               <div className="relative z-10">

@@ -21,7 +21,7 @@ class AudioEngine {
     if (this.initialized) return;
 
     // Initialize HTML5 Audio for background music
-    this.bgMusic = new Audio("/audio/joyful-celebration.mp3");
+    this.bgMusic = new Audio("./audio/joyful-celebration.mp3");
     this.bgMusic.loop = true;
     this.bgMusic.volume = 0.45; // Smooth volume
 

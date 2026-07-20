@@ -24,7 +24,7 @@ export function VideoLanding({ onOpenComplete }) {
       <div className="relative aspect-[960/2106] h-full max-w-full bg-[#EDE3D4] flex items-center justify-center border-x border-[#d6c3a1]">
         <video
           ref={videoRef}
-          src="/opening-animation-1777287974328.mp4"
+          src="./opening-animation-1777287974328.mp4"
           className="w-full h-full object-cover"
           playsInline
           onEnded={handleEnded}
