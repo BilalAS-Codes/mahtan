@@ -18,34 +18,20 @@ class AudioEngine {
   }
 
   init() {
-    if (this.initialized) return;
+    if (this.initialized && this.bgMusic) return;
 
     // Initialize HTML5 Audio for background music
     this.bgMusic = new Audio("./audio/joyful-celebration.mp3");
     this.bgMusic.loop = true;
-    this.bgMusic.volume = 0.45; // Smooth volume
+    this.bgMusic.volume = 0.6; // Clear audible volume
 
-    // Create audio context for ambient synthesis
+    // Create audio context for Web Audio API if supported
     const AudioContextClass = window.AudioContext || window.webkitAudioContext;
     if (AudioContextClass) {
       try {
         this.ctx = new AudioContextClass();
-        this.masterGain = this.ctx.createGain();
-        this.masterGain.gain.setValueAtTime(0, this.ctx.currentTime); // Start muted
-        this.masterGain.connect(this.ctx.destination);
-
-        // Create White Noise Buffer for Wind & Water
-        const bufferSize = 2 * this.ctx.sampleRate;
-        const noiseBuffer = this.ctx.createBuffer(1, bufferSize, this.ctx.sampleRate);
-        const output = noiseBuffer.getChannelData(0);
-        for (let i = 0; i < bufferSize; i++) {
-          output[i] = Math.random() * 2 - 1;
-        }
-
-        this.setupWind(noiseBuffer);
-        this.setupWater(noiseBuffer);
       } catch (e) {
-        console.warn("Could not initialize Web Audio context:", e);
+        console.warn("Could not initialize AudioContext:", e);
       }
     }
 
