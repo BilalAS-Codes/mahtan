@@ -221,23 +221,14 @@ class AudioEngine {
   start() {
     this.init();
     
-    // Play background music
+    // Play background music track cleanly
     if (this.bgMusic) {
       this.bgMusic.play().catch(err => {
-        console.warn("Background music autoplay prevented or failed:", err);
+        console.warn("Background music play prevented:", err);
       });
     }
 
-    if (this.ctx) {
-      if (this.ctx.state === "suspended") {
-        this.ctx.resume();
-      }
-      // Fade in ambient volume
-      this.masterGain.gain.linearRampToValueAtTime(1.0, this.ctx.currentTime + 2.0);
-    }
-
     this.playing = true;
-    this.startBirds();
   }
 
   stop() {
@@ -246,12 +237,7 @@ class AudioEngine {
       this.bgMusic.pause();
     }
 
-    if (this.ctx) {
-      this.masterGain.gain.linearRampToValueAtTime(0.0, this.ctx.currentTime + 1.0);
-    }
-    
     this.playing = false;
-    this.stopBirds();
   }
 }
 

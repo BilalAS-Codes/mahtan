@@ -3,14 +3,20 @@ import { Volume2, VolumeX } from 'lucide-react';
 import { audioEngine } from '../../utils/audioEngine';
 
 export function AudioController() {
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(audioEngine.playing);
 
   useEffect(() => {
-    // Make sure we stop audio if the component unmounts
+    const interval = setInterval(() => {
+      if (audioEngine.playing !== isPlaying) {
+        setIsPlaying(audioEngine.playing);
+      }
+    }, 200);
+
     return () => {
+      clearInterval(interval);
       audioEngine.stop();
     };
-  }, []);
+  }, [isPlaying]);
 
   const toggleAudio = () => {
     if (isPlaying) {
