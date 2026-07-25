@@ -28,42 +28,12 @@ export function VideoLanding({ onOpenComplete }) {
       <div className="relative aspect-[960/2106] h-full max-w-full bg-[#EDE3D4] flex items-center justify-center border-x border-[#d6c3a1]">
         {/* Initial Loader overlay until video is ready */}
         {!isVideoLoaded && (
-          <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-[#EDE3D4] text-[#3E251C] p-6 text-center shadow-2xl">
-            {/* Proper Luxury Circular SVG Spinner */}
-            <div className="relative w-16 h-16 mb-4 flex items-center justify-center">
-              <svg className="w-full h-full animate-spin text-[#9B734B]" viewBox="0 0 50 50">
-                <circle
-                  className="opacity-20"
-                  cx="25"
-                  cy="25"
-                  r="20"
-                  fill="none"
-                  stroke="#3E251C"
-                  strokeWidth="4"
-                />
-                <circle
-                  className="opacity-90"
-                  cx="25"
-                  cy="25"
-                  r="20"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="4"
-                  strokeLinecap="round"
-                  strokeDasharray="80, 200"
-                  strokeDashoffset="0"
-                />
-              </svg>
-              {/* Inner Heart Icon */}
-              <div className="absolute inset-0 flex items-center justify-center text-[#9B734B]">
-                <div className="w-2 h-2 rounded-full bg-[#9B734B] animate-ping" />
-              </div>
-            </div>
-
-            <span className="font-serif text-xs tracking-[0.3em] uppercase text-[#9B734B] font-bold animate-pulse">
+          <div className="absolute inset-0 z-20 flex flex-col items-center justify-center bg-[#EDE3D4] text-[#3E251C] p-6 text-center">
+            <div className="w-12 h-12 rounded-full border-2 border-[#CBB494] border-t-transparent animate-spin mb-4" />
+            <span className="font-serif text-sm tracking-[0.25em] uppercase text-[#9B734B] font-bold animate-pulse">
               Loading Invitation...
             </span>
-            <span className="font-serif italic text-[11px] text-[#3E251C]/70 mt-1.5">
+            <span className="font-serif italic text-xs text-[#3E251C]/70 mt-2">
               Doha & Mahtan
             </span>
           </div>
