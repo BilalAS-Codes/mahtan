@@ -207,18 +207,23 @@ class AudioEngine {
   start() {
     this.init();
     
-    // Play background music track cleanly
+    // Play background music track safely avoiding AbortError interruptions
     if (this.bgMusic) {
-      this.bgMusic.play().catch(err => {
-        console.warn("Background music play prevented:", err);
-      });
+      const playPromise = this.bgMusic.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(err => {
+          if (err.name !== 'AbortError') {
+            console.warn("Background music play error:", err);
+          }
+        });
+      }
     }
 
     this.playing = true;
   }
 
   stop() {
-    // Pause background music
+    // Pause background music safely
     if (this.bgMusic) {
       this.bgMusic.pause();
     }

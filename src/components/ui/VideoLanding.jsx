@@ -82,13 +82,6 @@ export function VideoLanding({ onOpenComplete }) {
           onEnded={handleEnded}
         />
 
-        {isVideoLoaded && !isPlaying && (
-          <div className="absolute inset-0 z-30 flex flex-col items-center justify-center pointer-events-none bg-black/15">
-            <span className="font-serif text-sm tracking-[0.3em] uppercase text-amber-200 font-bold animate-pulse bg-black/40 px-8 py-3 rounded-full backdrop-blur-md border border-amber-400/40 shadow-xl">
-              Tap to Open
-            </span>
-          </div>
-        )}
       </div>
     </div>
   );
