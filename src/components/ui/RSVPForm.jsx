@@ -101,7 +101,7 @@ export function RSVPForm({ isOpen, onClose }) {
                 <Sparkles className="w-4 h-4" />
               </div>
 
-              <h2 className="font-arabic text-3xl md:text-5xl text-twilight-50 font-bold tracking-wide leading-relaxed">
+              <h2 className="font-arabic text-3xl md:text-5xl text-twilight-50 font-bold tracking-wide leading-[3.5] py-6 my-2 drop-shadow-sm">
                 السلام عليكم ورحمة الله وبركاته
               </h2>
 

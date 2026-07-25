@@ -90,9 +90,9 @@ export default function App() {
   const faqs = data.faq || [];
   const venueDays = data.venueDays || [];
 
-  // Countdown timer using date in JSON
+  // Countdown timer set to 20th September 2026
   useEffect(() => {
-    const weddingDate = new Date(`${eventData.event_date}T16:00:00`).getTime();
+    const weddingDate = new Date('2026-09-20T16:00:00').getTime();
     const updateCountdown = () => {
       const now = Date.now();
       const diff = weddingDate - now;
@@ -112,9 +112,9 @@ export default function App() {
     return () => clearInterval(interval);
   }, []);
 
-  // Scroll setup with Lenis
+  // Scroll setup with Lenis & lock background when RSVP modal is open
   useEffect(() => {
-    if (!entered || !sealOpened) {
+    if (!entered || !sealOpened || showRSVPModal) {
       document.body.style.overflow = 'hidden';
       return;
     }
@@ -134,7 +134,7 @@ export default function App() {
       gsap.ticker.remove(lenis.raf);
       document.body.style.overflow = 'auto';
     };
-  }, [entered, sealOpened]);
+  }, [entered, sealOpened, showRSVPModal]);
 
   const handleSealOpened = () => {
     audioEngine.start();
@@ -188,17 +188,25 @@ export default function App() {
               <h2 className="font-serif text-3xl md:text-5xl text-white font-bold tracking-wider uppercase drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)]">
                 Mahtan Mohammed
               </h2>
+
+              {/* Date added beside/under couple names as requested */}
+              <div className="mt-3 py-1 px-4 rounded-full bg-black/30 backdrop-blur-sm border border-amber-500/40">
+                <span className="font-serif text-sm md:text-base tracking-[0.25em] text-amber-200 uppercase font-semibold drop-shadow-[0_1px_3px_rgba(0,0,0,0.9)]">
+                  ✦ 20th September ✦
+                </span>
+              </div>
+
               <span className="font-script text-2xl md:text-3xl text-amber-500 drop-shadow-[0_2px_6px_rgba(0,0,0,0.9)] mt-4">
                 we are getting married
               </span>
             </div>
           </div>
 
-          {/* ===== QURAN VERSE (Replaces Couple Image Screen - Optimized for Mobile spacing) ===== */}
+          {/* ===== QURAN VERSE ===== */}
           <div className="w-full py-16 px-8 bg-[#F8F5F2] text-[#3E251C] text-center z-10 border-b border-[#CBB494]/20 flex items-center justify-center">
             <div className="max-w-md mx-auto space-y-6">
               <div className="font-serif text-lg tracking-[0.25em] text-[#9B734B] uppercase">Bismillah</div>
-              
+
               <div className="font-arabic text-2xl md:text-3xl leading-loose font-medium select-none text-[#3E251C]">
                 وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً
               </div>
@@ -225,10 +233,10 @@ export default function App() {
             >
               <div className="absolute inset-0 bg-[#F8F5F2]/45 pointer-events-none" />
               <div className="relative z-10">
-                <div className="mb-2 text-[#9B734B] font-serif text-sm">✦ ✦ ✦</div>
+                <div className="mb-2 text-[#9B734B] font-serif text-sm">✦ 20TH SEPTEMBER ✦</div>
                 <h2 className="font-serif italic text-2xl tracking-widest text-[#3E251C] uppercase">Countdown</h2>
                 <p className="text-xs italic text-[#3E251C]/80 mt-1 mb-6">{data.countdown?.message}</p>
-                
+
                 <div className="flex justify-center gap-3">
                   {[
                     { label: 'DAYS', val: countdown.days },
@@ -254,55 +262,7 @@ export default function App() {
             {/* Star Divider to fill space */}
             <IslamicStarDivider />
 
-            {/* ===== SCHEDULE SECTION ===== */}
-            <div className="w-full">
-              <div className="text-center mb-8">
-                <div className="w-10 h-10 mx-auto mb-2 text-[#3E251C]/85 flex items-center justify-center">
-                  <Clock className="w-6 h-6 stroke-[1.2]" />
-                </div>
-                <h2 className="font-serif italic text-3xl tracking-widest text-[#3E251C] uppercase">Schedule</h2>
-                <p className="text-xs italic text-[#3E251C]/70 mt-1">What we have planned for you</p>
-              </div>
-
-              {/* Timeline Container (Day 1 Only) */}
-              {timelineDays[0] && (
-                <div className="relative py-4">
-                  <TimelineVine />
-                  <div className="space-y-10">
-                    {timelineDays[0].items.map((item, idx) => {
-                      const isLeft = idx % 2 === 1;
-                      return (
-                        <div key={idx} className={`relative flex items-center justify-between min-h-[90px] w-full ${isLeft ? 'flex-row-reverse' : ''}`}>
-                          {/* Text Block */}
-                          <div className={`w-[42%] text-[#3E251C] ${isLeft ? 'text-left pl-2' : 'text-right pr-2'}`}>
-                            <h3 className="font-serif text-sm font-bold uppercase tracking-wider text-[#3E251C]">{item.title}</h3>
-                            <p className="text-[11px] font-semibold text-[#3E251C]/70 mt-0.5">{item.time}</p>
-                          </div>
-                          
-                          {/* Center Node Spacer */}
-                          <div className="w-[16%] flex justify-center z-10" />
-
-                          {/* Watercolor Icon Block */}
-                          <div className={`w-[42%] flex ${isLeft ? 'justify-end pr-3' : 'justify-start pl-3'}`}>
-                            <img
-                              src={getTimelineIcon(item.title)}
-                              alt={item.title}
-                              className="w-10 h-10 object-contain hover:scale-105 transition-transform"
-                              onError={(e) => { e.target.style.display = 'none' }}
-                            />
-                          </div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              )}
-            </div>
-
-            {/* Crescent Divider to fill space */}
-            <CrescentDivider />
-
-            {/* ===== VENUES SECTION (DAY 1 ONLY & PREVIOUS LOCATION) ===== */}
+            {/* ===== VENUES SECTION ===== */}
             <div className="w-full">
               <div className="text-center mb-8">
                 <div className="w-10 h-10 mx-auto mb-2 text-[#3E251C]/85 flex items-center justify-center">
@@ -312,7 +272,6 @@ export default function App() {
               </div>
 
               <div className="bg-white border border-[#CBB494]/50 rounded-3xl p-5 shadow-sm overflow-hidden flex flex-col">
-                {/* Day 1 Image */}
                 {venueDays[0] && (
                   <img
                     src={venueDays[0].imageUrl}
@@ -322,7 +281,6 @@ export default function App() {
                   />
                 )}
 
-                {/* Google Maps Embed iframe with Fremont, CA */}
                 <div className="w-full h-36 rounded-2xl overflow-hidden border border-[#CBB494]/40 mb-4">
                   <iframe
                     src="https://maps.google.com/maps?q=Resham+Event+Center+Fremont+CA&output=embed"
@@ -334,7 +292,6 @@ export default function App() {
                   />
                 </div>
 
-                {/* Venue details matching previous code */}
                 <div className="text-center px-2 flex flex-col items-center">
                   <div className="w-8 h-8 rounded-full bg-[#EDE3D4] flex items-center justify-center text-[#3E251C] mb-2 border border-[#CBB494]">
                     <MapPin className="w-4 h-4" />
@@ -361,11 +318,11 @@ export default function App() {
               </div>
             </div>
 
-            {/* Star Divider to fill space */}
-            <IslamicStarDivider />
+            {/* Crescent Divider to fill space */}
+            <CrescentDivider />
 
             {/* ===== SECOND QURANIC VERSE IN BETWEEN ===== */}
-            <div className="text-center py-8 my-2 border-y border-[#CBB494]/45">
+            <div className="text-center py-8 my-2 border-y border-[#CBB494]/45 bg-[#FAF8F5]/60 rounded-2xl">
               <div className="max-w-sm mx-auto space-y-3">
                 <div className="font-arabic text-xl md:text-2xl text-[#3E251C] leading-relaxed">
                   وَخَلَقْنَاكُمْ أَزْوَاجًا
@@ -388,55 +345,39 @@ export default function App() {
                 <h2 className="font-serif italic text-3xl tracking-widest text-[#3E251C] uppercase">Dress Code</h2>
               </div>
 
-              {dressCodeDays[0] && (
-                <div className="bg-[#FAF8F5] border border-[#CBB494]/60 rounded-3xl p-6 text-center shadow-sm">
-                  <img
-                    src={dressCodeDays[0].imageUrl}
-                    alt="Suggested Attire Sketch"
-                    className="w-full max-w-[260px] mx-auto rounded-xl object-contain mb-4"
-                    onError={(e) => { e.target.style.display = 'none' }}
-                  />
-                  <h3 className="font-serif text-lg font-bold uppercase tracking-wider text-[#3E251C] mb-4">
-                    {dressCodeDays[0].code}
-                  </h3>
+              <div className="bg-[#FAF8F5] border border-[#CBB494]/60 rounded-3xl p-8 text-center shadow-sm relative overflow-hidden">
+                {/* Decorative background embellishment */}
+                <div className="absolute top-0 right-0 w-24 h-24 bg-[#EADAC5]/20 rounded-full blur-2xl pointer-events-none" />
 
-                  <div className="grid grid-cols-2 gap-4 py-4 border-y border-[#CBB494]/40">
-                    <div>
-                      <p className="text-[10px] uppercase font-bold tracking-widest text-[#3E251C]/50 mb-1">Women</p>
-                      <p className="text-xs font-semibold text-[#3E251C]">{dressCodeDays[0].codeWomen}</p>
-                    </div>
-                    <div>
-                      <p className="text-[10px] uppercase font-bold tracking-widest text-[#3E251C]/50 mb-1">Men</p>
-                      <p className="text-xs font-semibold text-[#3E251C]">{dressCodeDays[0].codeMen}</p>
-                    </div>
+                {/* Islamic Star & Arch Motif */}
+                <div className="my-2 py-6 px-4 bg-[#F8F5F2] border border-[#CBB494]/40 rounded-2xl flex flex-col items-center justify-center relative shadow-inner max-w-xs mx-auto">
+                  <div className="w-16 h-20 border border-[#9B734B]/40 rounded-t-full flex flex-col items-center justify-center p-2 relative bg-white/70">
+                    <svg className="w-8 h-8 text-[#9B734B]" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12 2l2.4 3.6 4.3-1.3-1.3 4.3 3.6 2.4-3.6 2.4 1.3 4.3-4.3-1.3-2.4 3.6-2.4-3.6-4.3 1.3 1.3-4.3-3.6-2.4 3.6-2.4-1.3-4.3 4.3 1.3z" opacity="0.85" />
+                    </svg>
                   </div>
 
-                  {dressCodeDays[0].colors && (
-                    <div className="mt-5">
-                      <p className="text-[10px] uppercase tracking-wider text-[#3E251C]/50 mb-2.5">Suggested colors:</p>
-                      <div className="flex justify-center gap-3">
-                        {dressCodeDays[0].colors.map((color, cIdx) => (
-                          <div
-                            key={cIdx}
-                            className="w-7 h-7 rounded-full border border-[#CBB494]/50 shadow-sm"
-                            style={{ backgroundColor: color }}
-                          />
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                  <h3 className="font-serif italic text-lg font-bold text-[#3E251C] mt-4 mb-1">
+                    Add Your Best Attire
+                  </h3>
+                  <p className="text-xs font-serif text-[#9B734B] tracking-wide italic">
+                    We invite you to wear whatever makes you feel your best!
+                  </p>
                 </div>
-              )}
+              </div>
             </div>
 
+            {/* Star Divider to fill space */}
+            <IslamicStarDivider />
+
             {/* ===== OUR STORY SECTION ===== */}
-            <div className="w-full text-center">
+            <div className="w-full text-center bg-white/70 border border-[#CBB494]/40 rounded-3xl p-8 shadow-sm">
               <div className="w-10 h-10 mx-auto mb-2 text-[#3E251C]/85 flex items-center justify-center">
                 <BookOpen className="w-6 h-6 stroke-[1.2]" />
               </div>
               <h2 className="font-serif italic text-3xl tracking-widest text-[#3E251C] uppercase">Our Story</h2>
-              <p className="text-xs leading-relaxed font-serif text-[#3E251C]/80 mt-6 max-w-sm mx-auto font-medium">
-                {data.ourStory?.description}
+              <p className="text-xs leading-relaxed font-serif text-[#3E251C]/80 mt-6 max-w-sm mx-auto font-medium italic">
+                "Two souls created for each other, beginning a journey of love, faith, and togetherness."
               </p>
               <div className="mt-8 flex justify-center items-center gap-4 text-[#CBB494]">
                 <div className="w-16 h-[1px] bg-current" />
@@ -445,87 +386,107 @@ export default function App() {
               </div>
             </div>
 
-            {/* ===== MENU SECTION ===== */}
+            {/* ===== FEATURED CARTOON ILLUSTRATION CARD ===== */}
             <div className="w-full">
-              <MenuFrame>
-                <h2 className="font-serif italic text-2xl tracking-widest text-[#3E251C] uppercase mb-8">Menu</h2>
-                <div className="space-y-6">
-                  {menuCategories.map((cat, catIdx) => (
-                    <div key={catIdx} className="space-y-2">
-                      <p className="text-[10px] font-bold uppercase tracking-widest text-[#5C3D2E]">
-                        — {cat.title} —
-                      </p>
-                      {cat.items.map((item, itemIdx) => (
-                        <div key={itemIdx} className="px-2">
-                          <h4 className="font-serif text-sm font-semibold text-[#3E251C]">{item.name}</h4>
-                          <p className="text-[11px] italic text-[#3E251C]/75 mt-0.5 max-w-xs mx-auto leading-relaxed">
-                            {item.description}
-                          </p>
-                        </div>
-                      ))}
-                    </div>
-                  ))}
+              <div className="text-center mb-6">
+                <h2 className="font-serif italic text-2xl tracking-widest text-[#3E251C] uppercase">Celebration</h2>
+                <p className="text-[11px] font-serif italic text-[#9B734B] mt-1">Doha & Mahtan</p>
+              </div>
+
+              <div className="bg-white border border-[#CBB494]/60 rounded-3xl p-4 shadow-sm overflow-hidden flex flex-col items-center text-center">
+                <div className="w-full rounded-2xl overflow-hidden bg-[#FAF8F5] border border-[#CBB494]/30">
+                  <img
+                    src="./cartoon.webp"
+                    alt="Doha and Mahtan Cartoon Illustration"
+                    className="w-full h-auto object-contain max-h-[380px] mx-auto hover:scale-105 transition-transform duration-700"
+                  />
                 </div>
-              </MenuFrame>
+                <div className="py-3 px-2">
+                  <span className="font-serif italic text-sm font-bold text-[#3E251C] tracking-wide block">
+                    Doha & Mahtan
+                  </span>
+                  <span className="text-[11px] font-serif italic text-[#9B734B] block mt-0.5">
+                    "Together in love, faith & togetherness"
+                  </span>
+                </div>
+              </div>
             </div>
 
-            {/* Crescent Divider to fill space */}
+            {/* Crescent Divider to fill space before RSVP */}
             <CrescentDivider />
 
-            {/* ===== HADITH IN BETWEEN ===== */}
-            <div className="text-center py-8 my-2 border-y border-[#CBB494]/45">
-              <div className="max-w-sm mx-auto space-y-3">
-                <div className="w-8 h-8 rounded-full bg-[#EDE3D4] flex items-center justify-center text-[#3E251C] mx-auto border border-[#CBB494]">
-                  <Heart className="w-4 h-4 fill-current text-[#3E251C]" />
+            {/* ===== RSVP CTA BOTTOM SECTION (Prominent 'Are You Coming?') ===== */}
+            <div className="text-center py-10 px-6 border-2 border-[#CBB494]/60 bg-[#FAF8F5] rounded-3xl mt-4 shadow-md relative overflow-hidden">
+              <div className="absolute -top-12 -right-12 w-32 h-32 bg-[#EADAC5]/30 rounded-full blur-2xl pointer-events-none" />
+
+              <div className="w-12 h-12 rounded-full bg-[#EDE3D4] border border-[#CBB494] flex items-center justify-center mx-auto mb-3 text-[#5C3D2E] shadow-xs">
+                <Heart className="w-6 h-6 fill-current animate-pulse text-[#9B734B]" />
+              </div>
+
+              <span className="text-[10px] uppercase font-bold tracking-[0.25em] text-[#9B734B] block mb-1">
+                ✦ We Would Be Honoured ✦
+              </span>
+
+              <h3 className="font-serif italic text-3xl font-bold text-[#3E251C] my-2">
+                Are You Coming?
+              </h3>
+
+              <p className="text-xs font-serif italic text-[#3E251C]/80 max-w-xs mx-auto mb-6 leading-relaxed">
+                Please let us know if you will be celebrating with us on 20th September, In Sha Allah!
+              </p>
+
+              <div className="flex flex-col sm:flex-row justify-center items-center gap-3 max-w-xs mx-auto">
+                <button
+                  onClick={() => setShowRSVPModal(true)}
+                  className="w-full py-3.5 px-6 bg-[#5C3D2E] hover:bg-[#3E251C] text-white font-serif text-xs font-bold tracking-widest uppercase rounded-full shadow-md hover:scale-105 active:scale-95 transition-all flex items-center justify-center gap-2"
+                >
+                  <span>Yes, I will attend</span>
+                  <span className="text-sm">✨</span>
+                </button>
+
+                <button
+                  onClick={() => setShowRSVPModal(true)}
+                  className="w-full py-3 px-6 bg-white/80 hover:bg-white border border-[#CBB494]/60 text-[#3E251C] font-serif text-xs font-semibold tracking-wider uppercase rounded-full shadow-xs hover:scale-105 active:scale-95 transition-all"
+                >
+                  RSVP Response
+                </button>
+              </div>
+            </div>
+
+            {/* ===== RSVP BOT WIDGET (Clean, Gentle, Non-bouncing) ===== */}
+            <div className="fixed bottom-6 right-4 z-50 pointer-events-auto flex flex-col items-end">
+              {/* Bot Speech Bubble */}
+              <div className="bg-[#FAF8F5] border-2 border-[#CBB494] text-[#3E251C] p-3.5 rounded-2xl rounded-br-none shadow-xl max-w-[210px] text-center relative mb-2 backdrop-blur-md">
+                <div className="flex items-center justify-center gap-1.5 mb-1">
+
+                  <span className="font-serif text-[10px] uppercase font-bold tracking-wider text-[#9B734B]">RSVP Assistant</span>
                 </div>
-                <p className="text-xs md:text-sm font-serif italic text-[#3E251C]/90 px-6 leading-relaxed">
-                  "When a man marries, he has fulfilled half of his religion; so let him fear Allah regarding the remaining half."
+                <p className="font-serif italic text-xs font-bold text-[#3E251C]">
+                  "Are you coming to Doha & Mahtan's wedding?" 💍
                 </p>
-                <div className="text-[9px] tracking-widest uppercase font-bold text-[#9B734B]">
-                  — Prophet Mohammed (ﷺ) [Al-Tirmidhi]
+                <div className="mt-2 flex gap-1.5">
+                  <button
+                    onClick={() => setShowRSVPModal(true)}
+                    className="flex-1 py-1.5 px-2 bg-[#5C3D2E] hover:bg-[#3E251C] text-white font-serif text-[10px] font-bold rounded-xl shadow-xs transition-all hover:scale-105 active:scale-95"
+                  >
+                    Yes! ✨
+                  </button>
+                  <button
+                    onClick={() => setShowRSVPModal(true)}
+                    className="flex-1 py-1.5 px-2 bg-[#EDE3D4] hover:bg-[#CBB494]/30 text-[#3E251C] font-serif text-[10px] font-semibold rounded-xl shadow-xs transition-all border border-[#CBB494]/50 hover:scale-105 active:scale-95"
+                  >
+                    RSVP
+                  </button>
                 </div>
               </div>
-            </div>
 
-            {/* ===== FAQ SECTION ===== */}
-            <div className="w-full">
-              <div className="text-center mb-8">
-                <h2 className="font-serif italic text-3xl tracking-widest text-[#3E251C] uppercase">FAQ</h2>
-              </div>
-
-              <div className="space-y-3">
-                {faqs.map((faq, fIdx) => (
-                  <div key={fIdx} className="bg-white border border-[#CBB494]/50 rounded-2xl overflow-hidden">
-                    <button
-                      onClick={() => setActiveFaq(activeFaq === fIdx ? null : fIdx)}
-                      className="w-full flex items-center justify-between p-4 text-left font-semibold text-xs text-[#3E251C]"
-                    >
-                      <span>{faq.question}</span>
-                      {activeFaq === fIdx ? <ChevronUp className="w-4 h-4 shrink-0" /> : <ChevronDown className="w-4 h-4 shrink-0" />}
-                    </button>
-                    {activeFaq === fIdx && (
-                      <div className="p-4 pt-0 border-t border-[#EDE3D4] text-[11px] text-[#3E251C]/80 leading-relaxed font-medium">
-                        {faq.answer}
-                      </div>
-                    )}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* ===== RSVP CTA BOTTOM SECTION ===== */}
-            <div className="text-center py-6 border-t border-[#CBB494]/40 mt-6">
-              <span className="text-[10px] uppercase tracking-widest text-[#3E251C]/50 block mb-2">Scroll to RSVP</span>
-              <div className="w-5 h-8 border-2 border-[#3E251C]/30 rounded-full mx-auto flex items-start justify-center p-1 mb-6">
-                <div className="w-1.5 h-2 bg-[#3E251C]/60 rounded-full animate-bounce" />
-              </div>
-              <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-[#3E251C]/50">You're invited to</p>
-              <h3 className="font-serif italic text-2xl font-bold text-[#3E251C] mt-3 mb-6">Doha & Mahtan</h3>
+              {/* Bot Avatar Icon */}
               <button
                 onClick={() => setShowRSVPModal(true)}
-                className="px-10 py-3.5 bg-[#5C3D2E] hover:bg-[#3E251C] text-white font-serif text-xs font-bold tracking-widest uppercase rounded-full shadow-md hover:scale-105 active:scale-95 transition-all"
+                className="w-12 h-12 rounded-full bg-[#5C3D2E] text-amber-200 border-2 border-[#CBB494] flex items-center justify-center shadow-xl hover:scale-105 active:scale-95 transition-all p-2"
+                aria-label="Open RSVP Bot"
               >
-                RSVP Now
+                <Heart className="w-5 h-5 fill-current text-[#EADAC5]" />
               </button>
             </div>
 

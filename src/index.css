@@ -281,9 +281,11 @@ html.lenis body {
   margin-left: 0.5rem !important;
 }
 
-/* Arabic verse spacing - diacritics need extra vertical room */
-#main-scroll-container .font-arabic {
-  line-height: 2.5rem !important;
+/* Arabic text spacing - diacritics need extra vertical room */
+.font-arabic {
+  line-height: 3.8rem !important;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 /* Main Quran verse container needs more padding on mobile */
