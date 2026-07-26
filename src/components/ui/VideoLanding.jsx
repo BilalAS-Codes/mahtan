@@ -7,31 +7,38 @@ export function VideoLanding({ onOpenComplete }) {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
 
   useEffect(() => {
-    // If video is already cached or readyState >= 3
-    if (videoRef.current && videoRef.current.readyState >= 3) {
+    // Check if video is ready
+    if (videoRef.current && videoRef.current.readyState >= 2) {
       setIsVideoLoaded(true);
     }
   }, []);
 
   const handleClick = () => {
-    // If video is still loading when user clicks, mark as loaded so play can execute
-    if (!isVideoLoaded) {
-      setIsVideoLoaded(true);
-    }
-
-    // Immediately trigger background music on user touch/click interaction
+    // Start background music audio immediately on user click
     audioEngine.start();
 
-    if (videoRef.current && !isPlaying) {
+    if (videoRef.current) {
+      // Unmute video so its soundtrack or audio plays if present
+      videoRef.current.muted = false;
       const playPromise = videoRef.current.play();
       if (playPromise !== undefined) {
         playPromise
           .then(() => {
             setIsPlaying(true);
+            setIsVideoLoaded(true);
           })
           .catch((err) => {
-            console.warn("Video playback error:", err);
-            setIsPlaying(true);
+            console.warn("Video play attempt failed, trying muted play:", err);
+            if (videoRef.current) {
+              videoRef.current.muted = true;
+              videoRef.current.play().then(() => {
+                setIsPlaying(true);
+                setIsVideoLoaded(true);
+              }).catch(() => {
+                // If video fails completely, skip to site
+                onOpenComplete();
+              });
+            }
           });
       }
     }
@@ -48,7 +55,7 @@ export function VideoLanding({ onOpenComplete }) {
     >
       <div className="relative aspect-[960/2106] h-full max-w-full bg-[#EDE3D4] flex items-center justify-center border-x border-[#d6c3a1]">
         
-        {/* Default Golden Embroidery Background Preloader (visible before video loads) */}
+        {/* Default Golden Embroidery Background Preloader */}
         {!isVideoLoaded && (
           <div
             className="absolute inset-0 z-20 flex flex-col items-center justify-center text-[#3E251C] p-6 text-center bg-cover bg-center"
@@ -64,7 +71,7 @@ export function VideoLanding({ onOpenComplete }) {
                 Doha & Mahtan
               </h2>
               <span className="text-xs font-serif text-[#9B734B] uppercase tracking-widest mt-1">
-                20th September 2026
+                Tap anywhere to start
               </span>
             </div>
           </div>
@@ -75,13 +82,13 @@ export function VideoLanding({ onOpenComplete }) {
           src="./opening-animation-1777287974328.mp4"
           className={`w-full h-full object-cover transition-opacity duration-500 ${isVideoLoaded ? 'opacity-100' : 'opacity-0'}`}
           playsInline
+          muted
           preload="auto"
           onLoadedData={() => setIsVideoLoaded(true)}
           onCanPlay={() => setIsVideoLoaded(true)}
           onCanPlayThrough={() => setIsVideoLoaded(true)}
           onEnded={handleEnded}
         />
-
       </div>
     </div>
   );

@@ -6,20 +6,16 @@ export function AudioController() {
   const [isPlaying, setIsPlaying] = useState(audioEngine.playing);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (audioEngine.playing !== isPlaying) {
-        setIsPlaying(audioEngine.playing);
-      }
-    }, 200);
-
-    return () => {
-      clearInterval(interval);
-      audioEngine.stop();
+    const handleCheck = () => {
+      setIsPlaying(audioEngine.playing);
     };
-  }, [isPlaying]);
+    const interval = setInterval(handleCheck, 300);
+    return () => clearInterval(interval);
+  }, []);
 
-  const toggleAudio = () => {
-    if (isPlaying) {
+  const toggleAudio = (e) => {
+    e.stopPropagation();
+    if (audioEngine.playing) {
       audioEngine.stop();
       setIsPlaying(false);
     } else {

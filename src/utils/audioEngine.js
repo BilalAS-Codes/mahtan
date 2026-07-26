@@ -197,37 +197,47 @@ class AudioEngine {
     triggerNext();
   }
 
-  stopBirds() {
-    if (this.birdTimer) {
-      clearTimeout(this.birdTimer);
-      this.birdTimer = null;
-    }
-  }
-
   start() {
-    this.init();
-    
-    // Play background music track safely avoiding AbortError interruptions
-    if (this.bgMusic) {
-      const playPromise = this.bgMusic.play();
-      if (playPromise !== undefined) {
-        playPromise.catch(err => {
-          if (err.name !== 'AbortError') {
-            console.warn("Background music play error:", err);
-          }
+    if (!this.bgMusic) {
+      this.bgMusic = new Audio("./audio/joyful-celebration.mp3");
+      this.bgMusic.loop = true;
+      this.bgMusic.volume = 0.7;
+    }
+
+    // Try playing background music track directly
+    this.bgMusic.currentTime = this.bgMusic.currentTime || 0;
+    const playPromise = this.bgMusic.play();
+    if (playPromise !== undefined) {
+      playPromise
+        .then(() => {
+          this.playing = true;
+        })
+        .catch(err => {
+          console.warn("Audio autoplay blocked or interrupted:", err);
+          // Retry playing on user gesture fallback
+          const retryOnUserInteraction = () => {
+            if (this.bgMusic) {
+              this.bgMusic.play().then(() => {
+                this.playing = true;
+              }).catch(() => {});
+            }
+            window.removeEventListener('click', retryOnUserInteraction);
+            window.removeEventListener('touchstart', retryOnUserInteraction);
+          };
+          window.addEventListener('click', retryOnUserInteraction, { once: true });
+          window.addEventListener('touchstart', retryOnUserInteraction, { once: true });
         });
-      }
     }
 
     this.playing = true;
   }
 
   stop() {
-    // Pause background music safely
     if (this.bgMusic) {
-      this.bgMusic.pause();
+      try {
+        this.bgMusic.pause();
+      } catch (e) {}
     }
-
     this.playing = false;
   }
 }

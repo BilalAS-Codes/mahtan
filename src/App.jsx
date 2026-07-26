@@ -475,7 +475,7 @@ export default function App() {
                     onClick={() => setShowRSVPModal(true)}
                     className="flex-1 py-1.5 px-2 bg-[#EDE3D4] hover:bg-[#CBB494]/30 text-[#3E251C] font-serif text-[10px] font-semibold rounded-xl shadow-xs transition-all border border-[#CBB494]/50 hover:scale-105 active:scale-95"
                   >
-                    RSVP
+                    No 😞
                   </button>
                 </div>
               </div>
