@@ -336,6 +336,40 @@ export default function App() {
               </div>
             </div>
 
+            {/* Crescent Divider */}
+            <CrescentDivider />
+
+            {/* ===== AESTHETIC COUPLE PHOTO 1 ===== */}
+            <div className="w-full">
+              <div className="bg-white border border-[#CBB494]/60 rounded-3xl p-4 shadow-sm overflow-hidden">
+                <div className="w-full rounded-2xl overflow-hidden bg-[#FAF8F5] border border-[#CBB494]/30">
+                  <img
+                    src="./couple2.jpeg"
+                    alt="Elegant couple portrait"
+                    className="w-full h-auto object-cover max-h-[450px] hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+                <div className="py-3 px-2 text-center">
+                  <span className="text-xs font-serif text-[#3E251C] block font-bold">
+                    "Love recognizes no barriers"
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Star Divider */}
+            <IslamicStarDivider />
+
+            {/* ===== TIMING NOTICE - BOLD AND PROMINENT ===== */}
+            <div className="w-full text-center py-6 px-6 bg-[#FAF8F5] border-2 border-[#9B734B]/40 rounded-2xl shadow-sm">
+              <p className="text-sm font-serif font-bold text-[#3E251C] tracking-wide">
+                ⏰ Exact time will be posted two weeks before ⏰
+              </p>
+            </div>
+
+            {/* Star Divider */}
+            <IslamicStarDivider />
+
             {/* ===== DRESS CODE SECTION ===== */}
             <div className="w-full">
               <div className="text-center mb-8">
@@ -386,17 +420,41 @@ export default function App() {
               </div>
             </div>
 
+            {/* Crescent Divider */}
+            <CrescentDivider />
+
+            {/* ===== AESTHETIC COUPLE PHOTO 2 ===== */}
+            <div className="w-full">
+              <div className="bg-white border border-[#CBB494]/60 rounded-3xl p-4 shadow-sm overflow-hidden">
+                <div className="w-full rounded-2xl overflow-hidden bg-[#FAF8F5] border border-[#CBB494]/30">
+                  <img
+                    src="./found-in-crowd.jpeg"
+                    alt="Two hearts destined to meet"
+                    className="w-full h-auto object-cover max-h-[450px] hover:scale-105 transition-transform duration-700"
+                  />
+                </div>
+                <div className="py-3 px-2 text-center">
+                  <span className="text-xs font-serif text-[#3E251C] block font-bold">
+                    "Two hearts found each other"
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Star Divider */}
+            <IslamicStarDivider />
+
             {/* ===== FEATURED CARTOON ILLUSTRATION CARD ===== */}
             <div className="w-full">
               <div className="text-center mb-6">
                 <h2 className="font-serif italic text-2xl tracking-widest text-[#3E251C] uppercase">Celebration</h2>
-                <p className="text-[11px] font-serif italic text-[#9B734B] mt-1">Doha & Mahtan</p>
+                <p className="text-[11px] font-serif italic text-[#9B734B] mt-1 font-bold">Doha & Mahtan</p>
               </div>
 
               <div className="bg-white border border-[#CBB494]/60 rounded-3xl p-4 shadow-sm overflow-hidden flex flex-col items-center text-center">
                 <div className="w-full rounded-2xl overflow-hidden bg-[#FAF8F5] border border-[#CBB494]/30">
                   <img
-                    src="./cartoon.webp"
+                    src="./cartoon.jpeg"
                     alt="Doha and Mahtan Cartoon Illustration"
                     className="w-full h-auto object-contain max-h-[380px] mx-auto hover:scale-105 transition-transform duration-700"
                   />
@@ -405,7 +463,7 @@ export default function App() {
                   <span className="font-serif italic text-sm font-bold text-[#3E251C] tracking-wide block">
                     Doha & Mahtan
                   </span>
-                  <span className="text-[11px] font-serif italic text-[#9B734B] block mt-0.5">
+                  <span className="text-[11px] font-serif italic text-[#9B734B] block mt-0.5 font-bold">
                     "Together in love, faith & togetherness"
                   </span>
                 </div>
